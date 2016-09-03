@@ -47,9 +47,18 @@ gulp.task('copy', () => {
       `${dirs.source}/**/*.txt`,
       `${dirs.source}/**/*.xml`,
       `${dirs.source}/CNAME`,
-      `${dirs.source}/favicon.svg`
+      `${dirs.source}/apple-touch-icon-precomposed.png`,
+      `${dirs.source}/favicon.ico`,
+      `${dirs.source}/favicon.svg`,
+      `${dirs.source}/tile-wide.png`,
+      `${dirs.source}/tile.png`
     ])
     .pipe(gulp.dest(`${dirs.dest}`));
+});
+
+gulp.task('copy:images', () => {
+  return gulp.src(`${dirs.source}/content/images/**/*.{jpg,jpeg,gif,png,webp}`)
+    .pipe(gulp.dest(`${dirs.dest}/content/images`));
 });
 
 gulp.task('critical', () => {
@@ -129,13 +138,13 @@ gulp.task('html', ['css', 'js', 'svg:icons'], () => {
 gulp.task('images', () => {
   return gulp.src(`${dirs.source}/**/*.{gif,ico,jpg,jpeg,png}`)
     .pipe(gulpImagemin())
-    .pipe(gulp.dest(`${dirs.dest}`));
+    .pipe(gulp.dest(`${dirs.source}`));
 });
 
 gulp.task('images:webp', () => {
   return gulp.src(`${dirs.source}/content/images/**/*.{jpg,jpeg,gif,png}`)
     .pipe(gulpWebp())
-    .pipe(gulp.dest(`${dirs.dest}/content/images`));
+    .pipe(gulp.dest(`${dirs.source}/content/images`));
 });
 
 gulp.task('js', () => {
@@ -213,15 +222,11 @@ gulp.task('default', [
 ]);
 
 gulp.task('build', [
-  'css',
+  'copy',
+  'copy:images',
   'fonts',
-  'images',
-  'images:webp',
-  'js',
-  'svg',
-  'svg:icons',
   'html',
-  'copy'
+  'svg'
 ]);
 
 gulp.task('lint', [
