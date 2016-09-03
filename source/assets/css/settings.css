@@ -1,0 +1,18 @@
+:root {
+  --baseBgColor: #f8f9fB;
+  --baseColor: #0a0a0a;
+  --baseFontFamily: Montserrat;
+  --baseFontFamilyFallback: sans-serif;
+  --baseFontSize: 1.125rem;
+  --baseFontWeight: 300;
+  --baseLineHeight: 1.75;
+
+  --colorPrimary: #b77c3a;
+  --colorSecondary: #964db3;
+  --colorSuccess: #367d53;
+  --colorWarning: #f1c40f;
+  --colorError: #b83c2e;
+
+  --borderColor: #bdbdbd;
+  --borderHoverColor: color(var(--borderColor), darkness(20%));
+}

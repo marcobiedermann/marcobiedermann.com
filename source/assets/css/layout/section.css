@@ -1,0 +1,54 @@
+section {
+  display: block;
+}
+
+.site__section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.site__section--dark {
+  background-color: #0a0a0a;
+  color: #f8f9fB;
+}
+
+.site__section--dark h2:after {
+  background-color: #b77c3a;
+}
+
+.site__section--full {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.site__section--full h1 {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.site__section--full .scroll-down {
+  animation-duration: 2s;
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.site__section--full .scroll-down .icon {
+  position: relative;
+  z-index: 1;
+}
+
+.site__section--full .scroll-down:after {
+  background-color: #f8f9fB;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 2rem;
+  transform: rotate(45deg) translate(-75%, -2%);
+  width: 2rem;
+  z-index: 0;
+}

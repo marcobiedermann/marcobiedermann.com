@@ -1,0 +1,39 @@
+.logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logos li {
+  flex-basis: 50%;
+}
+
+@media (min-width: 30em) {
+
+  .logos li {
+    flex-basis: 33.33333%;
+  }
+
+}
+
+@media (min-width: 48em) {
+
+  .logos li {
+    flex-basis: 25%;
+  }
+
+}
+
+.logos a {
+  display: block;
+  filter: grayscale(100%);
+  padding: 1.5rem .5rem;
+}
+
+.logos a:focus,
+.logos a:hover {
+  filter: none;
+}

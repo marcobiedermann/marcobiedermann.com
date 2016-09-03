@@ -1,0 +1,32 @@
+:root {
+  --footerBgColor: #0a0a0a;
+  --footerColor: #f8f9fB;
+  --footerFontSize: 1rem;
+  --footerPaddingVertical: 1rem;
+}
+
+footer {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.site__footer {
+  background: var(--footerBgColor);
+  color: var(--footerColor);
+  font-size: var(--footerFontSize);
+  padding-bottom: var(--footerPaddingVertical);
+  padding-top: var(--footerPaddingVertical);
+}
+
+.site__footer__copyright {
+  float: left;
+}
+
+.site__footer p {
+  margin: 0;
+}
+
+.site__footer .icon {
+  fill: #f8f9fB;
+}

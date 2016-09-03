@@ -1,0 +1,25 @@
+:root {
+  --anchorColor: var(--colorPrimary);
+  --anchorTextDecoration: none;
+
+  --anchorActiveColor: #cb9559;
+  --anchorHoverColor: #90622e;
+}
+
+a {
+  background-color: transparent;
+  border: 0;
+  color: var(--anchorColor);
+  outline: 0;
+  text-decoration: var(--anchorTextDecoration);
+  transition: background-color .3s, color .3s, filter .3s;
+}
+
+a:active {
+  color: var(--anchorActiveColor);
+}
+
+a:focus,
+a:hover {
+  color: var(--anchorHoverColor);
+}

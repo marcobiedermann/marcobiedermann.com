@@ -1,0 +1,15 @@
+:root {
+  --hrBgColor: #bdbdbd;
+  --hrHeight: 1px;
+  --hrMarginBottom: 1.5rem;
+  --hrMarginTop: 0;
+}
+
+hr {
+  background-color: var(--hrBgColor);
+  border: 0;
+  box-sizing: content-box;
+  height: var(--hrHeight);
+  margin-bottom: var(--hrMarginBottom);
+  margin-top: var(--hrMarginTop);
+}

@@ -1,0 +1,23 @@
+<ul class="projects">
+  <% for (let i = 0, length = (typeof limit === 'undefined') ? projects.length : limit; i < length; i++) { %>
+  <li>
+    <article class="project" itemscope="" itemtype="http://schema.org/CreativeWork">
+
+      <figure>
+        <a href="projects/<%= projects[i].url %>" itemprop="url">
+          <picture>
+            <source data-srcset="content/images/projects/<%= projects[i].thumbnail %>.webp">
+            <img data-src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" class="js-lazyload" itemprop="image">
+          </picture>
+          <figcaption>
+            <div class="project__caption">
+              <h3 class="project__title" itemprop="name"><%= projects[i].title %></h3>
+            </div>
+          </figcaption>
+        </a>
+      </figure>
+
+    </article>
+  </li>
+  <% }%>
+</ul>

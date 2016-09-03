@@ -1,0 +1,31 @@
+:root {
+  --iconSize: 1em;
+}
+
+.icon {
+  display: inline-block;
+  fill: var(--baseColor);
+  height: var(--iconSize);
+  vertical-align: middle;
+  width: var(--iconSize);
+}
+
+.icon--2x {
+  font-size: 2rem;
+}
+
+.icon--3x {
+  font-size: 3rem;
+}
+
+.icon--4x {
+  font-size: 4rem;
+}
+
+.icon--5x {
+  font-size: 5rem;
+}
+
+.icon--6x {
+  font-size: 6rem;
+}

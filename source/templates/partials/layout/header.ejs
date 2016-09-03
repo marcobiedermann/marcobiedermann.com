@@ -1,0 +1,23 @@
+<header class="site__header" role="banner">
+
+  <button class="navigation__button navigation__button--open js-toggle" data-target="#navigation--main"><svg class="icon"><use xlink:href="assets/images/<%= rev['icons.svg'] %>#menu" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></button>
+
+  <nav class="navigation navigation--main align" id="navigation--main" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <button class="navigation__button navigation__button--close js-toggle" data-target="#navigation--main"><svg class="icon"><use xlink:href="assets/images/<%= rev['icons.svg'] %>#x" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></button>
+    <ul>
+      <li>
+        <a href="/" title="Marco Biedermann Homepage" itemprop="url"><span itemprop="name">Home</span></a>
+      </li>
+      <li>
+        <a href="about" title="About Marco Biedermann" itemprop="url"><span itemprop="name">About</span></a>
+      </li>
+      <li>
+        <a href="projects" title="Projects I've been working on" itemprop="url"><span itemprop="name">Work</span></a>
+      </li>
+      <li>
+        <a href="contact" title="Get in Contact with me" itemprop="url"><span itemprop="name">Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+</header>

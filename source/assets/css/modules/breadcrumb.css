@@ -1,0 +1,27 @@
+:root {
+  --breadcrumbItemMargin: .5rem;
+
+  --breadcrumbLinkPaddingHorizontal: .5rem;
+  --breadcrumbLinkPaddingVertical: .25rem;
+}
+
+.breadcrumb {
+  list-style: none;
+  margin: calc(var(--breadcrumbItemMargin) * -1);
+  padding: 0;
+}
+
+.breadcrumb::after {
+  content: ' ';
+  display: table;
+}
+
+.breadcrumb li {
+  float: left;
+  margin: var(--breadcrumbItemMargin);
+}
+
+.breadcrumb a {
+  display: block;
+  padding: var(--breadcrumbLinkPaddingVertical) var(--breadcrumbLinkPaddingHorizontal);
+}

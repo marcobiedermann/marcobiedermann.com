@@ -1,0 +1,18 @@
+:root {
+  --detailsMarginBottom: 1.5rem;
+  --detailsMarginTop: 0;
+}
+
+details {
+  display: block;
+  margin-bottom: var(--detailsMarginBottom);
+  margin-top: var(--detailsMarginTop);
+}
+
+summary {
+  display: block;
+}
+
+summary:focus {
+  outline: none;
+}

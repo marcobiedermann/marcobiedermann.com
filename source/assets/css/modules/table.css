@@ -1,0 +1,49 @@
+:root {
+  --tableMarginBottom: 3rem;
+
+  --tableCellPadding: .5rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: var(--tableMarginBottom);
+  text-align: left;
+  width: 100%;
+}
+
+caption,
+td,
+th {
+  padding: 0;
+  vertical-align: top;
+}
+
+.table {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+}
+
+@media (min-width: 48em) {
+
+  .table {
+    -webkit-overflow-scrolling: none;
+    overflow-x: none;
+  }
+
+}
+
+.table table {
+  width: 100%;
+}
+
+.table caption,
+.table td,
+.table th {
+  border: 1px solid var(--borderColor);
+  padding: var(--tableCellPadding);
+}
+
+.table caption {
+  font-weight: bold;
+}

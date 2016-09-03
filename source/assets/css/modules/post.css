@@ -1,0 +1,37 @@
+:root {
+  --postsMarginBottom: 1.5rem;
+}
+
+article {
+  display: block;
+}
+
+.posts {
+  list-style: none;
+  margin-bottom: var(--postsMarginBottom);
+  padding: 0;
+}
+
+.post {
+
+}
+
+.post__title {
+
+}
+
+.post__author {
+
+}
+
+.post__date {
+
+}
+
+.post__thumbnail {
+
+}
+
+.post__body {
+
+}

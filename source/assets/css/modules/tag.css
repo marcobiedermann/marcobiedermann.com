@@ -1,0 +1,34 @@
+:root {
+  --tagsFontSize: .875rem;
+  --tagsMarginBottom: 1.25rem;
+
+  --tagMargin: .25rem;
+
+  --tagLinkPaddingHorizontal: .5rem;
+  --tagLinkPaddingVertical: .25rem;
+}
+
+.tags {
+  font-size: var(--tagsFontSize);
+  list-style: none;
+  margin-bottom: var(--tagsMarginBottom);
+  margin-left: calc(var(--tagMargin) * -1);
+  margin-right: calc(var(--tagMargin) * -1);
+  padding: 0;
+}
+
+.tags::after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+.tag {
+  float: left;
+  margin: var(--tagMargin);
+}
+
+.tag a {
+  border: 1px solid var(--borderColor);
+  padding: var(--tagLinkPaddingVertical) var(--tagLinkPaddingHorizontal);
+}

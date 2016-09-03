@@ -1,0 +1,41 @@
+<script>
+
+  (function(window, document) {
+    'use strict';
+
+    // Google Analytics
+    window.ga = window.ga || function() {
+      (ga.q = ga.q || []).push(arguments)
+    };
+
+    ga.l = +new Date;
+
+    ga('create', 'UA-46884111-4', 'auto');
+    ga('send', 'pageview');
+
+    // loadJS
+    function loadJS(src, cb) {
+      var ref    = document.getElementsByTagName('script')[0];
+      var script = document.createElement('script');
+
+      script.src   = src;
+      script.async = true;
+
+      ref.parentNode.insertBefore(script, ref);
+
+      if (cb && typeof(cb) === 'function') {
+        script.onload = cb;
+      }
+
+      return script;
+    };
+
+    if (!requestAnimationFrame) {
+      loadJS('assets/js/shims/request-animation-frame.js');
+    }
+  }(window, document));
+
+</script>
+
+<script async defer src="https://www.google-analytics.com/analytics.js"></script>
+<script async defer src="assets/js/<%= rev['script.js'] %>"></script>

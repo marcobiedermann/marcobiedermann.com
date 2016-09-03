@@ -1,0 +1,58 @@
+.animate {
+  animation-duration: .75s;
+  animation-fill-mode: both;
+}
+
+.animate--infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes slideInUp {
+
+  0% {
+    opacity: 0;
+    transform: translateY(40%);
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+@keyframes upDown {
+
+  0%,
+  100% {
+    transform: translateY(-15px)
+  }
+
+  50% {
+    transform: translateY(0)
+  }
+
+}
+
+.animate {
+    animation-duration: .75s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out
+}
+
+.animate--delay {
+    animation-delay: .75s
+}
+
+.animate--infinite {
+    animation-iteration-count: infinite
+}
+
+.animate--slideInUp {
+    animation-name: slideInUp
+}
+
+.animate--upDown {
+    animation-name: upDown
+}
