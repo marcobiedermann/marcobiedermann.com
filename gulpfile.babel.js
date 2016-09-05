@@ -102,7 +102,7 @@ gulp.task('fonts', () => {
     .pipe(gulp.dest(`${dirs.dest}/assets/fonts`));
 });
 
-gulp.task('html', ['css', 'js', 'svg:icons'], () => {
+gulp.task('html', () => {
   return gulp.src(`${dirs.source}/templates/pages/**/*.ejs`)
     .pipe(gulpEjsLocals(
       {
@@ -183,7 +183,7 @@ gulp.task('lint:json', () => {
     .pipe(gulpJsonlint.reporter());
 });
 
-gulp.task('svg', () => {
+gulp.task('svg:content', () => {
   return gulp.src(`${dirs.source}/content/images/**/*.svg`)
     .pipe(gulpSvgmin())
     .pipe(gulp.dest(`${dirs.dest}/content/images`));
@@ -211,22 +211,26 @@ gulp.task('watch', () => {
 });
 
 gulp.task('default', [
+  'copy',
+  'copy:images',
   'css',
   'fonts',
   'js',
-  'svg',
   'svg:icons',
   'html',
-  'copy',
+  'svg:content',
   'watch'
 ]);
 
 gulp.task('build', [
   'copy',
   'copy:images',
+  'css',
   'fonts',
+  'js',
+  'svg:icons',
   'html',
-  'svg'
+  'svg:content'
 ]);
 
 gulp.task('lint', [
