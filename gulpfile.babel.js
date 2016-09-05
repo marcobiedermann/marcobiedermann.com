@@ -102,7 +102,7 @@ gulp.task('fonts', () => {
     .pipe(gulp.dest(`${dirs.dest}/assets/fonts`));
 });
 
-gulp.task('html', () => {
+gulp.task('html', ['css', 'js', 'svg:icons'], () => {
   return gulp.src(`${dirs.source}/templates/pages/**/*.ejs`)
     .pipe(gulpEjsLocals(
       {
@@ -213,10 +213,7 @@ gulp.task('watch', () => {
 gulp.task('default', [
   'copy',
   'copy:images',
-  'css',
   'fonts',
-  'js',
-  'svg:icons',
   'html',
   'svg:content',
   'watch'
@@ -225,10 +222,7 @@ gulp.task('default', [
 gulp.task('build', [
   'copy',
   'copy:images',
-  'css',
   'fonts',
-  'js',
-  'svg:icons',
   'html',
   'svg:content'
 ]);
