@@ -35,6 +35,30 @@
 
 }
 
+@keyframes hoverIn {
+
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+    }
+
+}
+
+@keyframes hoverOut {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(101%);
+  }
+
+}
+
 .animate {
     animation-duration: .75s;
     animation-fill-mode: both;
