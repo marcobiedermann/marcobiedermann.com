@@ -1,26 +1,29 @@
-import critical        from 'critical';
-import fs              from 'fs';
-import gulp            from 'gulp';
-import gulpBrowserify  from 'gulp-browserify';
-import gulpCleanCss    from 'gulp-clean-css';
-import gulpEjsLocals   from 'gulp-ejs-locals';
-import gulpEslint      from 'gulp-eslint';
-import gulpHtmlmin     from 'gulp-htmlmin';
-import gulpImagemin    from 'gulp-imagemin';
-import gulpJsonlint    from 'gulp-jsonlint';
-import gulpPostcss     from 'gulp-postcss';
-import gulpRev         from 'gulp-rev';
-import gulpSourcemaps  from 'gulp-sourcemaps';
-import gulpSvgmin      from 'gulp-svgmin';
-import gulpSvgstore    from 'gulp-svgstore';
-import gulpUglify      from 'gulp-uglify';
-import gulpWebp        from 'gulp-webp';
-import path            from 'path';
-import postcssCssnext  from 'postcss-cssnext';
-import postcssImport   from 'postcss-import';
-import postcssModules  from 'postcss-modules';
-import postcssReporter from 'postcss-reporter';
-import stylelint       from 'stylelint';
+import babelify          from 'babelify';
+import browserify        from 'browserify';
+import critical          from 'critical';
+import fs                from 'fs';
+import gulp              from 'gulp';
+import gulpCleanCss      from 'gulp-clean-css';
+import gulpEjsLocals     from 'gulp-ejs-locals';
+import gulpEslint        from 'gulp-eslint';
+import gulpHtmlmin       from 'gulp-htmlmin';
+import gulpImagemin      from 'gulp-imagemin';
+import gulpJsonlint      from 'gulp-jsonlint';
+import gulpPostcss       from 'gulp-postcss';
+import gulpRev           from 'gulp-rev';
+import gulpSourcemaps    from 'gulp-sourcemaps';
+import gulpSvgmin        from 'gulp-svgmin';
+import gulpSvgstore      from 'gulp-svgstore';
+import gulpUglify        from 'gulp-uglify';
+import gulpWebp          from 'gulp-webp';
+import path              from 'path';
+import postcssCssnext    from 'postcss-cssnext';
+import postcssImport     from 'postcss-import';
+import postcssModules    from 'postcss-modules';
+import postcssReporter   from 'postcss-reporter';
+import stylelint         from 'stylelint';
+import vinylBuffer       from 'vinyl-buffer';
+import vinylSourceStream from 'vinyl-source-stream';
 
 const dirs = {
   source: './source',
@@ -148,11 +151,16 @@ gulp.task('images:webp', () => {
 });
 
 gulp.task('js', () => {
-  return gulp.src(`${dirs.source}/assets/js/script.js`)
+  const b = browserify({
+    entries: `${dirs.source}/assets/js/script.js`,
+    debug: true,
+    transform: [babelify]
+  });
+
+  return b.bundle()
+    .pipe(vinylSourceStream('script.js'))
+    .pipe(vinylBuffer())
     .pipe(gulpSourcemaps.init())
-    .pipe(gulpBrowserify({
-      transform: ['babelify']
-    }))
     .pipe(gulpUglify())
     .pipe(gulpRev())
     .pipe(gulpSourcemaps.write('.'))
