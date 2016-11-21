@@ -1,7 +1,4 @@
 language: node_js
-env:
-  global:
-    - ENCRYPTION_LABEL: "ad908c49f59d"
 node_js:
   - stable
-script: bash ./deploy.sh
+script: npm test

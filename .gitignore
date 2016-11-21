@@ -1,6 +1,5 @@
 .DS_Store
-deploy_key
-deploy_key.pub
 
+.publish
 dist
 node_modules

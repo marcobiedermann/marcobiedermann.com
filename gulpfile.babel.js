@@ -6,6 +6,7 @@ import gulp              from 'gulp';
 import gulpCleanCss      from 'gulp-clean-css';
 import gulpEjsLocals     from 'gulp-ejs-locals';
 import gulpEslint        from 'gulp-eslint';
+import gulpGhPages       from 'gulp-gh-pages';
 import gulpHtmlmin       from 'gulp-htmlmin';
 import gulpImagemin      from 'gulp-imagemin';
 import gulpJsonlint      from 'gulp-jsonlint';
@@ -57,6 +58,11 @@ gulp.task('copy', () => {
       `${dirs.source}/tile.png`
     ])
     .pipe(gulp.dest(`${dirs.dest}`));
+});
+
+gulp.task('deploy', () => {
+  return gulp.src(`${dirs.dest}/**/*`)
+    .pipe(gulpGhPages());
 });
 
 gulp.task('copy:images', () => {
