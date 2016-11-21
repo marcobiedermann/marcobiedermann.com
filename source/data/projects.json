@@ -3,7 +3,7 @@
     {
       "title": "Daily UI",
       "date": "",
-      "url": "daily-ui",
+      "url": "daily-ui/",
       "description": "",
       "thumbnail": "daily-ui/daily-ui",
       "tags": ["Daily UI"]
@@ -11,7 +11,7 @@
     {
       "title": "Axxatronic",
       "date": "",
-      "url": "axxatronic",
+      "url": "axxatronic/",
       "description": "",
       "thumbnail": "axxatronic/axxatronic-thumbnail",
       "tags": ["Website"]
@@ -19,7 +19,7 @@
     {
       "title": "Schubart Stube",
       "date": "",
-      "url": "schubart-stube",
+      "url": "schubart-stube/",
       "description": "",
       "thumbnail": "schubart-stube/schubart-stube-thumbnail",
       "tags": ["Website"]
@@ -27,7 +27,7 @@
     {
       "title": "Hotel Adler Asperg",
       "date": "",
-      "url": "hotel-adler-asperg",
+      "url": "hotel-adler-asperg/",
       "description": "",
       "thumbnail": "hotel-adler-asperg/hotel-adler-asperg-thumbnail",
       "tags": ["Website"]
@@ -35,7 +35,7 @@
     {
       "title": "Metabolic Balance Academy",
       "date": "",
-      "url": "metabolic-balance-academy",
+      "url": "metabolic-balance-academy/",
       "description": "",
       "thumbnail": "metabolic-balance-academy/metabolic-balance-academy-thumbnail",
       "tags": ["Website"]
@@ -43,7 +43,7 @@
     {
       "title": "Haarbotschaft",
       "date": "",
-      "url": "haarbotschaft",
+      "url": "haarbotschaft/",
       "description": "",
       "thumbnail": "haarbotschaft/haarbotschaft-thumbnail",
       "tags": ["Website"]
@@ -51,7 +51,7 @@
     {
       "title": "Fixtreme",
       "date": "",
-      "url": "fixtreme",
+      "url": "fixtreme/",
       "description": "",
       "thumbnail": "fixtreme/fixtreme-thumbnail",
       "tags": ["Website"]
@@ -59,7 +59,7 @@
     {
       "title": "0711 Kreativagentur",
       "date": "",
-      "url": "0711-kreativagentur",
+      "url": "0711-kreativagentur/",
       "description": "",
       "thumbnail": "0711-kreativagentur/0711-kreativagentur-thumbnail",
       "tags": ["Website"]
@@ -67,7 +67,7 @@
     {
       "title": "Wirsing Rechtsanwälte",
       "date": "",
-      "url": "wirsing-rechtsanwaelte",
+      "url": "wirsing-rechtsanwaelte/",
       "description": "",
       "thumbnail": "wirsing-rechtsanwaelte/wirsing-rechtsanwaelte-thumbnail",
       "tags": ["Website"]
@@ -75,7 +75,7 @@
     {
       "title": "Ferienwohnung Elter-Föhr",
       "date": "",
-      "url": "ferienwohnung-elter-foehr",
+      "url": "ferienwohnung-elter-foehr/",
       "description": "",
       "thumbnail": "ferienwohnung-elter-foehr/ferienwohnung-elter-foehr-thumbnail",
       "tags": ["Website"]
@@ -83,7 +83,7 @@
     {
       "title": "Hochzeitsmesse “Traumhochzeit”",
       "date": "",
-      "url": "hochzeitsmesse-traumhochzeit",
+      "url": "hochzeitsmesse-traumhochzeit/",
       "description": "",
       "thumbnail": "hochzeitsmesse-traumhochzeit/hochzeitsmesse-traumhochzeit-thumbnail",
       "tags": ["Website"]
@@ -91,7 +91,7 @@
     {
       "title": "Performance Tooling Today",
       "date": "",
-      "url": "performance-tooling-today",
+      "url": "performance-tooling-today/",
       "description": "",
       "thumbnail": "performance-tooling-today/performance-tooling-today-thumbnail",
       "tags": ["Website"]
@@ -99,7 +99,7 @@
     {
       "title": "Jugendmusikschule Ludwigsburg",
       "date": "",
-      "url": "jugendmusikschule-ludwigsburg",
+      "url": "jugendmusikschule-ludwigsburg/",
       "description": "",
       "thumbnail": "jugendmusikschule-ludwigsburg/jugendmusikschule-ludwigsburg-thumbnail",
       "tags": ["Website"]
@@ -107,7 +107,7 @@
     {
       "title": "Wissenszentrum Energie",
       "date": "",
-      "url": "wissenszentrum-energie",
+      "url": "wissenszentrum-energie/",
       "description": "",
       "thumbnail": "wissenszentrum-energie/wissenszentrum-energie-thumbnail",
       "tags": ["Website"]
@@ -115,7 +115,7 @@
     {
       "title": "Hotel Campus Zwei™",
       "date": "",
-      "url": "hotel-campus-zwei",
+      "url": "hotel-campus-zwei/",
       "description": "",
       "thumbnail": "hotel-campus-zwei/hotel-campus-zwei-thumbnail",
       "tags": ["Website"]
@@ -123,7 +123,7 @@
     {
       "title": "Kinderwunschzentrum Ludwigsburg",
       "date": "",
-      "url": "kinderwunschzentrum-ludwigsburg",
+      "url": "kinderwunschzentrum-ludwigsburg/",
       "description": "",
       "thumbnail": "kinderwunschzentrum-ludwigsburg/kinderwunschzentrum-ludwigsburg-thumbnail",
       "tags": ["Website"]
@@ -131,7 +131,7 @@
     {
       "title": "Metabolic Balance",
       "date": "",
-      "url": "metabolic-balance",
+      "url": "metabolic-balance/",
       "description": "",
       "thumbnail": "metabolic-balance/metabolic-balance-thumbnail",
       "tags": ["Website"]
@@ -139,7 +139,7 @@
     {
       "title": "Fildorado",
       "date": "",
-      "url": "fildorado",
+      "url": "fildorado/",
       "description": "",
       "thumbnail": "fildorado/fildorado-thumbnail",
       "tags": ["Website"]
@@ -147,7 +147,7 @@
     {
       "title": "Visit USA",
       "date": "",
-      "url": "visit-usa",
+      "url": "visit-usa/",
       "description": "",
       "thumbnail": "visit-usa/visit-usa-thumbnail",
       "tags": ["Website"]
@@ -155,7 +155,7 @@
     {
       "title": "TheaterAkademieStuttgart",
       "date": "",
-      "url": "theater-akademie-stuttgart",
+      "url": "theater-akademie-stuttgart/",
       "description": "",
       "thumbnail": "theater-akademie-stuttgart/theater-akademie-stuttgart-thumbnail",
       "tags": ["Website"]
@@ -163,7 +163,7 @@
     {
       "title": "Schwabenprint",
       "date": "",
-      "url": "schwabenprint",
+      "url": "schwabenprint/",
       "description": "",
       "thumbnail": "schwabenprint/schwabenprint-thumbnail",
       "tags": ["Website"]
@@ -171,7 +171,7 @@
     {
       "title": "Isometall",
       "date": "",
-      "url": "isometall",
+      "url": "isometall/",
       "description": "",
       "thumbnail": "isometall/isometall-thumbnail",
       "tags": ["Website"]
@@ -179,7 +179,7 @@
     {
       "title": "German Council of Shopping Centers",
       "date": "",
-      "url": "german-council-of-shopping-centers",
+      "url": "german-council-of-shopping-centers/",
       "description": "",
       "thumbnail": "german-council-of-shopping-centers/german-council-of-shopping-centers-thumbnail",
       "tags": ["Website"]
@@ -187,7 +187,7 @@
     {
       "title": "Daily UI #062 Workout of the Day",
       "date": "2016-02-04",
-      "url": "daily-ui/062-workout-of-the-day",
+      "url": "daily-ui/062-workout-of-the-day/",
       "description": "",
       "thumbnail": "daily-ui/062-workout-of-the-day/workout-of-the-day",
       "tags": ["Daily UI"]
@@ -195,7 +195,7 @@
     {
       "title": "Daily UI #061 Redeem Coupon",
       "date": "2016-02-03",
-      "url": "daily-ui/061-redeem-coupon",
+      "url": "daily-ui/061-redeem-coupon/",
       "description": "",
       "thumbnail": "daily-ui/061-redeem-coupon/redeem-coupon",
       "tags": ["Daily UI"]
@@ -203,7 +203,7 @@
     {
       "title": "Daily UI #060 Color Picker",
       "date": "2016-02-02",
-      "url": "daily-ui/060-color-picker",
+      "url": "daily-ui/060-color-picker/",
       "description": "",
       "thumbnail": "daily-ui/060-color-picker/color-picker",
       "tags": ["Daily UI"]
@@ -211,7 +211,7 @@
     {
       "title": "Daily UI #059 Background Pattern",
       "date": "2016-02-01",
-      "url": "daily-ui/059-background-pattern",
+      "url": "daily-ui/059-background-pattern/",
       "description": "",
       "thumbnail": "daily-ui/059-background-pattern/background-pattern",
       "tags": ["Daily UI"]
@@ -219,7 +219,7 @@
     {
       "title": "Daily UI #058 Shopping Cart",
       "date": "2016-01-29",
-      "url": "daily-ui/058-shopping-cart",
+      "url": "daily-ui/058-shopping-cart/",
       "description": "",
       "thumbnail": "daily-ui/058-shopping-cart/shopping-cart",
       "tags": ["Daily UI"]
@@ -227,7 +227,7 @@
     {
       "title": "Daily UI #057 Video Player",
       "date": "2016-01-28",
-      "url": "daily-ui/057-video-player",
+      "url": "daily-ui/057-video-player/",
       "description": "",
       "thumbnail": "daily-ui/057-video-player/video-player",
       "tags": ["Daily UI"]
@@ -235,7 +235,7 @@
     {
       "title": "Daily UI #056 Breadcrumbs",
       "date": "2016-01-27",
-      "url": "daily-ui/056-breadcrumbs",
+      "url": "daily-ui/056-breadcrumbs/",
       "description": "",
       "thumbnail": "daily-ui/056-breadcrumbs/breadcrumbs",
       "tags": ["Daily UI"]
@@ -243,7 +243,7 @@
     {
       "title": "Daily UI #055 Icon Set",
       "date": "2016-01-26",
-      "url": "daily-ui/055-icon-set",
+      "url": "daily-ui/055-icon-set/",
       "description": "",
       "thumbnail": "daily-ui/055-icon-set/icon-set",
       "tags": ["Daily UI"]
@@ -251,7 +251,7 @@
     {
       "title": "Daily UI #054 Confirm Reservation",
       "date": "2016-01-25",
-      "url": "daily-ui/054-confirm-reservation",
+      "url": "daily-ui/054-confirm-reservation/",
       "description": "",
       "thumbnail": "daily-ui/054-confirm-reservation/confirm-reservation",
       "tags": ["Daily UI"]
@@ -259,7 +259,7 @@
     {
       "title": "Daily UI #053 Header Navigation",
       "date": "2016-01-22",
-      "url": "daily-ui/053-header-navigation",
+      "url": "daily-ui/053-header-navigation/",
       "description": "",
       "thumbnail": "daily-ui/053-header-navigation/header-navigation",
       "tags": ["Daily UI"]
@@ -267,7 +267,7 @@
     {
       "title": "Daily UI #052 Daily UI Logo",
       "date": "2016-01-21",
-      "url": "daily-ui/052-daily-ui-logo",
+      "url": "daily-ui/052-daily-ui-logo/",
       "description": "",
       "thumbnail": "daily-ui/052-daily-ui-logo/daily-ui-logo",
       "tags": ["Daily UI"]
@@ -275,7 +275,7 @@
     {
       "title": "Daily UI #051 Press Page",
       "date": "2016-01-20",
-      "url": "daily-ui/051-press-page",
+      "url": "daily-ui/051-press-page/",
       "description": "",
       "thumbnail": "daily-ui/051-press-page/press-page",
       "tags": ["Daily UI"]
@@ -283,7 +283,7 @@
     {
       "title": "Daily UI #050 Job Listing",
       "date": "2016-01-19",
-      "url": "daily-ui/050-job-listing",
+      "url": "daily-ui/050-job-listing/",
       "description": "",
       "thumbnail": "daily-ui/050-job-listing/job-listing",
       "tags": ["Daily UI"]
@@ -291,7 +291,7 @@
     {
       "title": "Daily UI #049 Notifications",
       "date": "2016-01-18",
-      "url": "daily-ui/049-notifications",
+      "url": "daily-ui/049-notifications/",
       "description": "",
       "thumbnail": "daily-ui/049-notifications/notifications",
       "tags": ["Daily UI"]
@@ -299,7 +299,7 @@
     {
       "title": "Daily UI #048 Coming Soon",
       "date": "2016-01-15",
-      "url": "daily-ui/048-coming-soon",
+      "url": "daily-ui/048-coming-soon/",
       "description": "",
       "thumbnail": "daily-ui/048-coming-soon/coming-soon",
       "tags": ["Daily UI"]
@@ -307,7 +307,7 @@
     {
       "title": "Daily UI #047 Activity Feed",
       "date": "2016-01-14",
-      "url": "daily-ui/047-activity-feed",
+      "url": "daily-ui/047-activity-feed/",
       "description": "",
       "thumbnail": "daily-ui/047-activity-feed/activity-feed",
       "tags": ["Daily UI"]
@@ -315,7 +315,7 @@
     {
       "title": "Daily UI #046 Invoice",
       "date": "2016-01-13",
-      "url": "daily-ui/046-invoice",
+      "url": "daily-ui/046-invoice/",
       "description": "",
       "thumbnail": "daily-ui/046-invoice/invoice",
       "tags": ["Daily UI"]
@@ -323,7 +323,7 @@
     {
       "title": "Daily UI #045 Info Card",
       "date": "2016-01-12",
-      "url": "daily-ui/045-info-card",
+      "url": "daily-ui/045-info-card/",
       "description": "",
       "thumbnail": "daily-ui/045-info-card/info-card",
       "tags": ["Daily UI"]
@@ -331,7 +331,7 @@
     {
       "title": "Daily UI #044 Favorites",
       "date": "2016-01-11",
-      "url": "daily-ui/044-favorites",
+      "url": "daily-ui/044-favorites/",
       "description": "",
       "thumbnail": "daily-ui/044-favorites/favorites",
       "tags": ["Daily UI"]
@@ -339,7 +339,7 @@
     {
       "title": "Daily UI #043 Food/Drink Menu",
       "date": "2016-01-08",
-      "url": "daily-ui/043-food-drink-menu",
+      "url": "daily-ui/043-food-drink-menu/",
       "description": "",
       "thumbnail": "daily-ui/043-food-drink-menu/food-drink-menu",
       "tags": ["Daily UI"]
@@ -347,7 +347,7 @@
     {
       "title": "Daily UI #042 ToDo List",
       "date": "2016-01-07",
-      "url": "daily-ui/042-todo-list",
+      "url": "daily-ui/042-todo-list/",
       "description": "",
       "thumbnail": "daily-ui/042-todo-list/todo-list",
       "tags": ["Daily UI"]
@@ -355,7 +355,7 @@
     {
       "title": "Daily UI #041 Workout Tracker",
       "date": "2016-01-06",
-      "url": "daily-ui/041-workout-tracker",
+      "url": "daily-ui/041-workout-tracker/",
       "description": "",
       "thumbnail": "daily-ui/041-workout-tracker/workout-tracker",
       "tags": ["Daily UI"]
@@ -363,7 +363,7 @@
     {
       "title": "Daily UI #040 Recipe",
       "date": "2016-01-05",
-      "url": "daily-ui/040-recipe",
+      "url": "daily-ui/040-recipe/",
       "description": "",
       "thumbnail": "daily-ui/040-recipe/recipe",
       "tags": ["Daily UI"]
@@ -371,7 +371,7 @@
     {
       "title": "Daily UI #039 Testimonial",
       "date": "2016-01-04",
-      "url": "daily-ui/039-testimonial",
+      "url": "daily-ui/039-testimonial/",
       "description": "",
       "thumbnail": "daily-ui/039-testimonial/testimonial",
       "tags": ["Daily UI"]
@@ -379,7 +379,7 @@
     {
       "title": "Daily UI #038 Calendar",
       "date": "2016-01-01",
-      "url": "daily-ui/038-calendar",
+      "url": "daily-ui/038-calendar/",
       "description": "",
       "thumbnail": "daily-ui/038-calendar/calendar",
       "tags": ["Daily UI"]
@@ -387,7 +387,7 @@
     {
       "title": "Daily UI #037 Weather",
       "date": "2015-12-31",
-      "url": "daily-ui/037-weather",
+      "url": "daily-ui/037-weather/",
       "description": "",
       "thumbnail": "daily-ui/037-weather/weather",
       "tags": ["Daily UI"]
@@ -395,7 +395,7 @@
     {
       "title": "Daily UI #036 Special Offer",
       "date": "2015-12-30",
-      "url": "daily-ui/036-special-offer",
+      "url": "daily-ui/036-special-offer/",
       "description": "",
       "thumbnail": "daily-ui/036-special-offer/special-offer",
       "tags": ["Daily UI"]
@@ -403,7 +403,7 @@
     {
       "title": "Daily UI #035 Blog Post",
       "date": "2015-12-29",
-      "url": "daily-ui/035-blog-post",
+      "url": "daily-ui/035-blog-post/",
       "description": "",
       "thumbnail": "daily-ui/035-blog-post/blog-post",
       "tags": ["Daily UI"]
@@ -411,7 +411,7 @@
     {
       "title": "Daily UI #034 Car Interface",
       "date": "2015-12-28",
-      "url": "daily-ui/034-car-interface",
+      "url": "daily-ui/034-car-interface/",
       "description": "",
       "thumbnail": "daily-ui/034-car-interface/car-interface",
       "tags": ["Daily UI"]
@@ -419,7 +419,7 @@
     {
       "title": "Daily UI #033 Customize Product",
       "date": "2015-12-25",
-      "url": "daily-ui/033-customize-product",
+      "url": "daily-ui/033-customize-product/",
       "description": "",
       "thumbnail": "daily-ui/033-customize-product/customize-product",
       "tags": ["Daily UI"]
@@ -427,7 +427,7 @@
     {
       "title": "Daily UI #032 Crowdfunding Campaign",
       "date": "2015-12-24",
-      "url": "daily-ui/032-crowdfunding-campaign",
+      "url": "daily-ui/032-crowdfunding-campaign/",
       "description": "",
       "thumbnail": "daily-ui/032-crowdfunding-campaign/crowdfunding-campaign",
       "tags": ["Daily UI"]
@@ -435,7 +435,7 @@
     {
       "title": "Daily UI #031 File Upload",
       "date": "2015-12-23",
-      "url": "daily-ui/031-file-upload",
+      "url": "daily-ui/031-file-upload/",
       "description": "",
       "thumbnail": "daily-ui/031-file-upload/file-upload",
       "tags": ["Daily UI"]
@@ -443,7 +443,7 @@
     {
       "title": "Daily UI #030 Price",
       "date": "2015-12-22",
-      "url": "daily-ui/030-price",
+      "url": "daily-ui/030-price/",
       "description": "",
       "thumbnail": "daily-ui/030-price/price",
       "tags": ["Daily UI"]
@@ -451,7 +451,7 @@
     {
       "title": "Daily UI #029 Map",
       "date": "2015-12-21",
-      "url": "daily-ui/029-map",
+      "url": "daily-ui/029-map/",
       "description": "",
       "thumbnail": "daily-ui/029-map/map",
       "tags": ["Daily UI"]
@@ -459,7 +459,7 @@
     {
       "title": "Daily UI #028 Contact Us",
       "date": "2015-12-18",
-      "url": "daily-ui/028-contact-us",
+      "url": "daily-ui/028-contact-us/",
       "description": "",
       "thumbnail": "daily-ui/028-contact-us/contact-us",
       "tags": ["Daily UI"]
@@ -467,7 +467,7 @@
     {
       "title": "Daily UI #027 Dropdown",
       "date": "2015-12-17",
-      "url": "daily-ui/027-dropdown",
+      "url": "daily-ui/027-dropdown/",
       "description": "",
       "thumbnail": "daily-ui/027-dropdown/dropdown",
       "tags": ["Daily UI"]
@@ -475,7 +475,7 @@
     {
       "title": "Daily UI #026 Subscribe",
       "date": "2015-12-16",
-      "url": "daily-ui/026-subscribe",
+      "url": "daily-ui/026-subscribe/",
       "description": "",
       "thumbnail": "daily-ui/026-subscribe/subscribe",
       "tags": ["Daily UI"]
@@ -483,7 +483,7 @@
     {
       "title": "Daily UI #025 TV App",
       "date": "2015-12-15",
-      "url": "daily-ui/025-tv-app",
+      "url": "daily-ui/025-tv-app/",
       "description": "",
       "thumbnail": "daily-ui/025-tv-app/tv-app",
       "tags": ["Daily UI"]
@@ -491,7 +491,7 @@
     {
       "title": "Daily UI #024 Boarding Pass",
       "date": "2015-12-14",
-      "url": "daily-ui/024-boarding-pass",
+      "url": "daily-ui/024-boarding-pass/",
       "description": "",
       "thumbnail": "daily-ui/024-boarding-pass/boarding-pass",
       "tags": ["Daily UI"]
@@ -499,7 +499,7 @@
     {
       "title": "Daily UI #023 Onboarding",
       "date": "2015-12-11",
-      "url": "daily-ui/023-onboarding",
+      "url": "daily-ui/023-onboarding/",
       "description": "",
       "thumbnail": "daily-ui/023-onboarding/onboarding",
       "tags": ["Daily UI"]
@@ -507,7 +507,7 @@
     {
       "title": "Daily UI #022 Search",
       "date": "2015-12-10",
-      "url": "daily-ui/022-search",
+      "url": "daily-ui/022-search/",
       "description": "",
       "thumbnail": "daily-ui/022-search/search",
       "tags": ["Daily UI"]
@@ -515,7 +515,7 @@
     {
       "title": "Daily UI #021 Home Monitoring Dashboard",
       "date": "2015-12-09",
-      "url": "daily-ui/021-home-monitoring-dashboard",
+      "url": "daily-ui/021-home-monitoring-dashboard/",
       "description": "",
       "thumbnail": "daily-ui/021-home-monitoring-dashboard/home-monitoring-dashboard",
       "tags": ["Daily UI"]
@@ -523,7 +523,7 @@
     {
       "title": "Daily UI #020 Location Tracker",
       "date": "2015-12-08",
-      "url": "daily-ui/020-location-tracker",
+      "url": "daily-ui/020-location-tracker/",
       "description": "",
       "thumbnail": "daily-ui/020-location-tracker/location-tracker",
       "tags": ["Daily UI"]
@@ -531,7 +531,7 @@
     {
       "title": "Daily UI #019 Leaderboard",
       "date": "2015-12-07",
-      "url": "daily-ui/019-leaderboard",
+      "url": "daily-ui/019-leaderboard/",
       "description": "",
       "thumbnail": "daily-ui/019-leaderboard/leaderboard",
       "tags": ["Daily UI"]
@@ -539,7 +539,7 @@
     {
       "title": "Daily UI #018 Analytics Chart",
       "date": "2015-12-04",
-      "url": "daily-ui/018-analytics-chart",
+      "url": "daily-ui/018-analytics-chart/",
       "description": "",
       "thumbnail": "daily-ui/018-analytics-chart/analytics-chart",
       "tags": ["Daily UI"]
@@ -547,7 +547,7 @@
     {
       "title": "Daily UI #017 Email Receipt",
       "date": "2015-12-03",
-      "url": "daily-ui/017-email-receipt",
+      "url": "daily-ui/017-email-receipt/",
       "description": "",
       "thumbnail": "daily-ui/017-email-receipt/email-receipt",
       "tags": ["Daily UI"]
@@ -555,7 +555,7 @@
     {
       "title": "Daily UI #016 Pop-Up Overlay",
       "date": "2015-12-02",
-      "url": "daily-ui/016-pop-up-overlay",
+      "url": "daily-ui/016-pop-up-overlay/",
       "description": "",
       "thumbnail": "daily-ui/016-pop-up-overlay/pop-up-overlay",
       "tags": ["Daily UI"]
@@ -563,7 +563,7 @@
     {
       "title": "Daily UI #015 On/Off Switch",
       "date": "2015-12-01",
-      "url": "daily-ui/015-on-off-switch",
+      "url": "daily-ui/015-on-off-switch/",
       "description": "",
       "thumbnail": "daily-ui/015-on-off-switch/on-off-switch",
       "tags": ["Daily UI"]
@@ -571,7 +571,7 @@
     {
       "title": "Daily UI #014 Countdown Timer",
       "date": "2015-11-30",
-      "url": "daily-ui/014-countdown-timer",
+      "url": "daily-ui/014-countdown-timer/",
       "description": "",
       "thumbnail": "daily-ui/014-countdown-timer/countdown-timer",
       "tags": ["Daily UI"]
@@ -579,7 +579,7 @@
     {
       "title": "Daily UI #013 Direct Messaging",
       "date": "2015-11-27",
-      "url": "daily-ui/013-direct-messaging",
+      "url": "daily-ui/013-direct-messaging/",
       "description": "",
       "thumbnail": "daily-ui/013-direct-messaging/direct-messaging",
       "tags": ["Daily UI"]
@@ -587,7 +587,7 @@
     {
       "title": "Daily UI #012 E-Commerce Shop",
       "date": "2015-11-26",
-      "url": "daily-ui/012-e-commerce-shop",
+      "url": "daily-ui/012-e-commerce-shop/",
       "description": "",
       "thumbnail": "daily-ui/012-e-commerce-shop/e-commerce-shop",
       "tags": ["Daily UI"]
@@ -595,7 +595,7 @@
     {
       "title": "Daily UI #011 Flash Message",
       "date": "2015-11-25",
-      "url": "daily-ui/011-flash-message",
+      "url": "daily-ui/011-flash-message/",
       "description": "",
       "thumbnail": "daily-ui/011-flash-message/flash-message",
       "tags": ["Daily UI"]
@@ -603,7 +603,7 @@
     {
       "title": "Daily UI #010 Social Share",
       "date": "2015-11-24",
-      "url": "daily-ui/010-social-share",
+      "url": "daily-ui/010-social-share/",
       "description": "",
       "thumbnail": "daily-ui/010-social-share/social-share",
       "tags": ["Daily UI"]
@@ -611,7 +611,7 @@
     {
       "title": "Daily UI #009 Music Player",
       "date": "2015-11-23",
-      "url": "daily-ui/009-music-player",
+      "url": "daily-ui/009-music-player/",
       "description": "",
       "thumbnail": "daily-ui/009-music-player/music-player",
       "tags": ["Daily UI"]
@@ -619,7 +619,7 @@
     {
       "title": "Daily UI #008 404",
       "date": "2015-11-20",
-      "url": "daily-ui/008-404",
+      "url": "daily-ui/008-404/",
       "description": "",
       "thumbnail": "daily-ui/008-404/404",
       "tags": ["Daily UI"]
@@ -627,7 +627,7 @@
     {
       "title": "Daily UI #007 Settings",
       "date": "2015-11-19",
-      "url": "daily-ui/007-settings",
+      "url": "daily-ui/007-settings/",
       "description": "",
       "thumbnail": "daily-ui/007-settings/settings",
       "tags": ["Daily UI"]
@@ -635,7 +635,7 @@
     {
       "title": "Daily UI #006 User profile",
       "date": "2015-11-18",
-      "url": "daily-ui/006-user-profile",
+      "url": "daily-ui/006-user-profile/",
       "description": "",
       "thumbnail": "daily-ui/006-user-profile/user-profile",
       "tags": ["Daily UI"]
@@ -643,7 +643,7 @@
     {
       "title": "Daily UI #005 App Icon",
       "date": "2015-11-17",
-      "url": "daily-ui/005-app-icon",
+      "url": "daily-ui/005-app-icon/",
       "description": "",
       "thumbnail": "daily-ui/005-app-icon/app-icon",
       "tags": ["Daily UI"]
@@ -651,7 +651,7 @@
     {
       "title": "Daily UI #004 Calculator",
       "date": "2015-11-16",
-      "url": "daily-ui/004-calculator",
+      "url": "daily-ui/004-calculator/",
       "description": "",
       "thumbnail": "daily-ui/004-calculator/calculator",
       "tags": ["Daily UI"]
@@ -659,7 +659,7 @@
     {
       "title": "Daily UI #003 Landing Page",
       "date": "2015-11-13",
-      "url": "daily-ui/003-landing-page",
+      "url": "daily-ui/003-landing-page/",
       "description": "",
       "thumbnail": "daily-ui/003-landing-page/landing-page",
       "tags": ["Daily UI"]
@@ -667,7 +667,7 @@
     {
       "title": "Daily UI #002 Credit Card Checkout",
       "date": "2015-11-12",
-      "url": "daily-ui/002-credit-card-checkout",
+      "url": "daily-ui/002-credit-card-checkout/",
       "description": "",
       "thumbnail": "daily-ui/002-credit-card-checkout/credit-card-checkout",
       "tags": ["Daily UI"]
@@ -675,7 +675,7 @@
     {
       "title": "Daily UI #001 Sign Up",
       "date": "2015-11-11",
-      "url": "daily-ui/001-sign-up",
+      "url": "daily-ui/001-sign-up/",
       "description": "",
       "thumbnail": "daily-ui/001-sign-up/sign-up",
       "tags": ["Daily UI"]
@@ -683,7 +683,7 @@
     {
       "title": "Calculator",
       "date": "2015-11-06",
-      "url": "calculator",
+      "url": "calculator/",
       "description": "",
       "thumbnail": "calculator/calculator-dark-light-iphone-6",
       "tags": []
@@ -691,7 +691,7 @@
     {
       "title": "Sign Up",
       "date": "2015-11-04",
-      "url": "sign-up",
+      "url": "sign-up/",
       "description": "",
       "thumbnail": "sign-up/sign-up-iphone",
       "tags": []
@@ -699,7 +699,7 @@
     {
       "title": "Minimal Blog Article",
       "date": "2015-10-16",
-      "url": "minimal-blog-article",
+      "url": "minimal-blog-article/",
       "description": "",
       "thumbnail": "minimal-blog-article/minimal-blog-article",
       "tags": []
@@ -707,7 +707,7 @@
     {
       "title": "Calendar",
       "date": "2015-10-16",
-      "url": "calendar",
+      "url": "calendar/",
       "description": "",
       "thumbnail": "calendar/calendar",
       "tags": []
@@ -715,7 +715,7 @@
     {
       "title": "Round Calendar",
       "date": "2015-10-16",
-      "url": "calendar-round",
+      "url": "calendar-round/",
       "description": "",
       "thumbnail": "calendar-round/calendar-round",
       "tags": []
@@ -723,7 +723,7 @@
     {
       "title": "Color Palette",
       "date": "2015-10-16",
-      "url": "color-palette",
+      "url": "color-palette/",
       "description": "",
       "thumbnail": "color-palette/color-palette",
       "tags": []
@@ -731,7 +731,7 @@
     {
       "title": "iOS 7 Progress Bar",
       "date": "2015-10-16",
-      "url": "ios-7-progress-bar",
+      "url": "ios-7-progress-bar/",
       "description": "",
       "thumbnail": "ios-7-progress-bar/ios-7-progress-bar",
       "tags": []
@@ -739,7 +739,7 @@
     {
       "title": "Search Bar Animation",
       "date": "2015-10-16",
-      "url": "search-bar-animation",
+      "url": "search-bar-animation/",
       "description": "",
       "thumbnail": "search-bar-animation/search-bar-animation",
       "tags": []
@@ -747,7 +747,7 @@
     {
       "title": "Social Section",
       "date": "2015-10-16",
-      "url": "social-section",
+      "url": "social-section/",
       "description": "",
       "thumbnail": "social-section/social-section",
       "tags": []
