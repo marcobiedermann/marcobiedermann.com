@@ -65,7 +65,7 @@ gulp.task('deploy', () => {
     .pipe(gulpGhPages());
 });
 
-gulp.task('critical', ['html', 'images', 'svg:assets'], () => {
+gulp.task('critical', ['html'], () => {
   return gulp.src('./dist/**/*.html')
     .pipe(critical.stream({
       base: 'dist/',
@@ -136,24 +136,6 @@ gulp.task('html', ['css', 'js', 'svg:icons'], () => {
         ext: '.html'
       }
     ))
-    .pipe(gulpHtmlmin({
-      caseSensitive                : true,
-      collapseBooleanAttributes    : true,
-      collapseWhitespace           : true,
-      minifyCSS                    : true,
-      minifyJS                     : true,
-      minifyURLs                   : true,
-      removeAttributeQuotes        : true,
-      removeCDATASectionsFromCDATA : true,
-      removeComments               : true,
-      removeCommentsFromCDATA      : true,
-      removeEmptyAttributes        : true,
-      removeOptionalTags           : true,
-      removeRedundantAttributes    : true,
-      removeScriptTypeAttributes   : true,
-      removeStyleLinkTypeAttributes: true,
-      useShortDoctype              : true
-    }))
     .pipe(gulp.dest(`${dirs.dest}`));
 });
 
@@ -210,12 +192,6 @@ gulp.task('lint:json', () => {
     .pipe(gulpJsonlint.reporter());
 });
 
-gulp.task('svg:assets', () => {
-  return gulp.src(`${dirs.source}/assets/images/*.svg`)
-    .pipe(gulpSvgmin())
-    .pipe(gulp.dest(`${dirs.dest}/assets/images`));
-});
-
 gulp.task('svg:content', () => {
   return gulp.src(`${dirs.source}/content/images/**/*.svg`)
     .pipe(gulpSvgmin())
@@ -238,9 +214,9 @@ gulp.task('svg:icons', () => {
 gulp.task('watch', () => {
   gulp.watch(`${dirs.source}/data/**/*.json`, ['html']);
   gulp.watch(`${dirs.source}/**/*.ejs`, ['html']);
-  gulp.watch(`${dirs.source}/assets/css/**/*.css`, ['css', 'html']);
-  gulp.watch(`${dirs.source}/assets/js/**/*.js`, ['js', 'html']);
-  gulp.watch(`${dirs.source}/assets/images/icons/**/*.svg`, ['svg:icons', 'html']);
+  gulp.watch(`${dirs.source}/assets/css/**/*.css`, ['html']);
+  gulp.watch(`${dirs.source}/assets/js/**/*.js`, ['html']);
+  gulp.watch(`${dirs.source}/assets/images/icons/**/*.svg`, ['html']);
 });
 
 gulp.task('images', [
@@ -249,7 +225,6 @@ gulp.task('images', [
 ]);
 
 gulp.task('svg', [
-  'svg:assets',
   'svg:content',
   'svg:icons'
 ]);
@@ -259,6 +234,7 @@ gulp.task('default', [
   'copy:images',
   'fonts',
   'html',
+  'images',
   'svg:content',
   'watch'
 ]);
