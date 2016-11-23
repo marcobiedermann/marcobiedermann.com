@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
 
 <%- partial('../../../../partials/layout/head', {
   page: {
@@ -35,8 +35,15 @@
                 <figure>
                   <picture>
                     <source type="image/webp" data-srcset="content/images/projects/daily-ui/052-daily-ui-logo/daily-ui-logo.webp">
-                    <img data-src="content/images/projects/daily-ui/052-daily-ui-logo/daily-ui-logo.png" class="js-lazyload" width="800" height="600" alt="">
+                    <img data-src="content/images/projects/daily-ui/052-daily-ui-logo/daily-ui-logo.png" class="lazyload" width="800" height="600" alt="">
                   </picture>
+
+                  <noscript>
+                    <picture>
+                      <source type="image/webp" srcset="content/images/projects/daily-ui/052-daily-ui-logo/daily-ui-logo.webp">
+                      <img src="content/images/projects/daily-ui/052-daily-ui-logo/daily-ui-logo.png" width="800" height="600" alt="">
+                    </picture>
+                  </noscript>
                 </figure>
 
                 <p><a href="//www.paywithapost.de/pay?id=2f0886c7-2934-4c70-8f4f-93fcc866a4a0" class="button button--dark" target="_blank">Download</a></p>

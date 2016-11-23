@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
 
 <%- partial('../../../partials/layout/head', {
   page: {
@@ -32,15 +32,29 @@
                 <figure>
                   <picture>
                     <source type="image/webp" data-srcset="content/images/projects/minimal-blog-article/minimal-blog-article-macbook.webp">
-                    <img data-src="content/images/projects/minimal-blog-article/minimal-blog-article-macbook.png" class="js-lazyload" width="" height="" alt="">
+                    <img data-src="content/images/projects/minimal-blog-article/minimal-blog-article-macbook.png" class="lazyload" width="" height="" alt="">
                   </picture>
+
+                  <noscript>
+                    <picture>
+                      <source type="image/webp" srcset="content/images/projects/minimal-blog-article/minimal-blog-article-macbook.webp">
+                      <img src="content/images/projects/minimal-blog-article/minimal-blog-article-macbook.png" width="" height="" alt="">
+                    </picture>
+                  </noscript>
                 </figure>
 
                 <figure>
                   <picture>
                     <source type="image/webp" data-srcset="content/images/projects/minimal-blog-article/minimal-blog-article.webp">
-                    <img data-src="content/images/projects/minimal-blog-article/minimal-blog-article.png" class="js-lazyload" width="" height="">
+                    <img data-src="content/images/projects/minimal-blog-article/minimal-blog-article.png" class="lazyload" width="" height="">
                   </picture>
+
+                  <noscript>
+                    <picture>
+                      <source type="image/webp" srcset="content/images/projects/minimal-blog-article/minimal-blog-article.webp">
+                      <img src="content/images/projects/minimal-blog-article/minimal-blog-article.png" width="" height="">
+                    </picture>
+                  </noscript>
                 </figure>
 
               </article>

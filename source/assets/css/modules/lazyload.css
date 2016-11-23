@@ -8,3 +8,7 @@
   transform: translateY(0);
   transition: opacity .75s, transform .75s;
 }
+
+.no-js .lazyload {
+  display: none;
+}

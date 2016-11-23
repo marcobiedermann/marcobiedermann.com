@@ -7,8 +7,16 @@
         <a href="projects/<%= projects[i].url %>" itemprop="url">
           <picture>
             <source data-srcset="content/images/projects/<%= projects[i].thumbnail %>.webp">
-            <img data-src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" class="js-lazyload" itemprop="image">
+            <img data-src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" class="lazyload" itemprop="image">
           </picture>
+
+          <noscript>
+            <picture>
+              <source srcset="content/images/projects/<%= projects[i].thumbnail %>.webp">
+              <img src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" itemprop="image">
+            </picture>
+          </noscript>
+
           <figcaption>
             <div class="project__caption">
               <h3 class="project__title" itemprop="name"><%= projects[i].title %></h3>

@@ -2,8 +2,16 @@
   <a href="<%= url %>">
     <picture>
       <source data-srcset="<%= src %>">
-      <img data-src="<%= src %>"<% if (alt) { %> alt="<%= alt %>"<% } %><% if (width) { %> width="<%= width %>"<% } %><% if (height) { %> height="<%= height %>"<% }%> class="js-lazyload">
+      <img data-src="<%= src %>"<% if (alt) { %> alt="<%= alt %>"<% } %><% if (width) { %> width="<%= width %>"<% } %><% if (height) { %> height="<%= height %>"<% }%> class="lazyload">
     </picture>
+
+    <noscript>
+      <picture>
+        <source srcset="<%= src %>">
+        <img src="<%= src %>"<% if (alt) { %> alt="<%= alt %>"<% } %><% if (width) { %> width="<%= width %>"<% } %><% if (height) { %> height="<%= height %>"<% }%>>
+      </picture>
+    </noscript>
+
     <figcaption>
       <%= figcaption %>
     </figcaption>

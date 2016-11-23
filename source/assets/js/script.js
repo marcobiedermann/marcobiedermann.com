@@ -3,9 +3,6 @@ import svg4everybody from 'svg4everybody';
 import easing        from './easing';
 import scrollTo      from './scroll-to';
 
-// LazySizes
-lazySizesConfig.lazyClass = 'js-lazyload';
-
 // Toggle
 document.querySelector('.js-toggle').addEventListener('click', function() {
   document.querySelector(this.getAttribute('data-target')).classList.toggle('active');
