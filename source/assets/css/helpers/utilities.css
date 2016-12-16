@@ -4,18 +4,6 @@
   margin-right: auto;
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
-  transform: translateZ(0);
-}
-
-.invisible {
-  left: -9999px;
-  position: absolute;
-  top: -9999px;
-}
-
 .list--unstyled {
   list-style: none;
   margin: 0;
@@ -29,8 +17,4 @@
 .list--inline li {
   display: inline-block;
   margin: .5rem;
-}
-
-.no--scroll {
-  overflow: hidden;
 }

@@ -6,22 +6,8 @@
   --listListMarginTop: .5rem;
 }
 
-dl,
-ol,
 ul {
   margin-bottom: var(--listMarginBottom);
   margin-top: var(--listMarginTop);
   padding-left: var(--listPadding);
-}
-
-dd dd,
-dd ol,
-dd ul,
-ul dd,
-ul ol,
-ul ul,
-ol dd,
-ol ol,
-ol ul {
-  margin-top: var(--listListMarginTop);
 }

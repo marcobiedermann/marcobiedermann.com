@@ -1,8 +1,0 @@
-audio {
-  display: inline-block;
-  vertical-align: baseline;
-}
-
-audio:not([controls]) {
-  display: none;
-}
