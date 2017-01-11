@@ -6,13 +6,13 @@
       <figure>
         <a href="projects/<%= projects[i].url %>" itemprop="url">
           <picture>
-            <source data-srcset="content/images/projects/<%= projects[i].thumbnail %>.webp">
+            <source data-srcset="content/images/projects/<%= projects[i].thumbnail %>.webp" type="image/webp">
             <img data-src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" class="lazyload" itemprop="image">
           </picture>
 
           <noscript>
             <picture>
-              <source srcset="content/images/projects/<%= projects[i].thumbnail %>.webp">
+              <source srcset="content/images/projects/<%= projects[i].thumbnail %>.webp" type="image/webp">
               <img src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" itemprop="image">
             </picture>
           </noscript>
