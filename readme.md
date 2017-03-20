@@ -5,4 +5,6 @@
 
 # Marco Biedermann
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/marcobiedermann/marcobiedermann.svg)](https://greenkeeper.io/)
+
 Personal Website [www.marcobiedermann.com](https://www.marcobiedermann.com)
