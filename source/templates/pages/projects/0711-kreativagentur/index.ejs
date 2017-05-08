@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
 
-<%- partial('../../../partials/layout/head', {
+<%- include('../../../partials/layout/head', {
   page: {
     title      : '0711 Kreativagentur',
     description: '0711 Kreativagentur Website',
     url        : 'projects/0711-kreativagentur'
   }
-}) %>
+}); %>
 
 <body>
 
-  <%- partial('../../../partials/layout/header') %>
+  <%- include('../../../partials/layout/header'); %>
 
   <div class="site__container">
 
@@ -244,7 +244,7 @@
 
               <div class="grid">
 
-                <%- partial('../../../partials/modules/logos') %>
+                <%- include('../../../partials/modules/logos'); %>
 
               </div>
 
@@ -260,9 +260,9 @@
 
   </div>
 
-  <%- partial('../../../partials/layout/footer') %>
+  <%- include('../../../partials/layout/footer'); %>
 
-  <%- partial('../../../partials/layout/scripts') %>
+  <%- include('../../../partials/layout/scripts'); %>
 
 </body>
 </html>

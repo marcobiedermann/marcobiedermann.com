@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
 
-<%- partial('../../partials/layout/head', {
+<%- include('../../partials/layout/head', {
   page: {
     title: 'Privacy Policy'
   }
-}) %>
+}); %>
 
 <body>
 
-  <%- partial('../../partials/layout/header') %>
+  <%- include('../../partials/layout/header'); %>
 
   <div class="site__container">
 
@@ -42,9 +42,9 @@
 
   </div>
 
-  <%- partial('../../partials/layout/footer') %>
+  <%- include('../../partials/layout/footer'); %>
 
-  <%- partial('../../partials/layout/scripts') %>
+  <%- include('../../partials/layout/scripts'); %>
 
 </body>
 </html>

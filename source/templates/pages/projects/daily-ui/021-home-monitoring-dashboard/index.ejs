@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
 
-<%- partial('../../../../partials/layout/head', {
+<%- include('../../../../partials/layout/head', {
   page: {
     title      : 'Daily UI | #021 | Home Monitoring Dashboard',
     description: 'Daily UI Challenge Day #021 | Home Minitoring Dashboard',
@@ -10,11 +10,11 @@
   og: {
     image: 'home-monitoring-dashboard-facebook.png'
   }
-}) %>
+}); %>
 
 <body>
 
-  <%- partial('../../../../partials/layout/header') %>
+  <%- include('../../../../partials/layout/header'); %>
 
   <div class="site__container">
 
@@ -79,9 +79,9 @@
 
   </div>
 
-  <%- partial('../../../../partials/layout/footer') %>
+  <%- include('../../../../partials/layout/footer'); %>
 
-  <%- partial('../../../../partials/layout/scripts') %>
+  <%- include('../../../../partials/layout/scripts'); %>
 
 </body>
 </html>

@@ -4,7 +4,7 @@ import critical          from 'critical';
 import fs                from 'fs';
 import gulp              from 'gulp';
 import gulpCleanCss      from 'gulp-clean-css';
-import gulpEjsLocals     from 'gulp-ejs-locals';
+import gulpEjs           from 'gulp-ejs';
 import gulpEslint        from 'gulp-eslint';
 import gulpGhPages       from 'gulp-gh-pages';
 import gulpHtmlmin       from 'gulp-htmlmin';
@@ -127,16 +127,13 @@ gulp.task('fonts', () => {
 
 gulp.task('html', ['css', 'js', 'svg:icons'], () => {
   return gulp.src(`${dirs.source}/templates/pages/**/*.ejs`)
-    .pipe(gulpEjsLocals(
-      {
-        className: getClass,
-        data     : require(`${dirs.source}/data/projects.json`),
-        rev      : getRev()
-      },
-      {
-        ext: '.html'
-      }
-    ))
+    .pipe(gulpEjs({
+      className: getClass,
+      data     : require(`${dirs.source}/data/projects.json`),
+      rev      : getRev()
+    }, {}, {
+      ext: '.html'
+    }))
     .pipe(gulp.dest(`${dirs.dest}`));
 });
 

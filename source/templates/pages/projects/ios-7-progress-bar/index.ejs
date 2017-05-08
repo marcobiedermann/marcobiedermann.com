@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
 
-<%- partial('../../../partials/layout/head', {
+<%- include('../../../partials/layout/head', {
   page: {
     title      : 'iOS 7 Progress Bar',
     description: 'iOS 7 Progress Bar',
     url        : 'projects/ios-progress-bar'
   }
-}) %>
+}); %>
 
 <body>
 
-  <%- partial('../../../partials/layout/header') %>
+  <%- include('../../../partials/layout/header'); %>
 
   <div class="site__container">
 
@@ -55,9 +55,9 @@
 
   </div>
 
-  <%- partial('../../../partials/layout/footer') %>
+  <%- include('../../../partials/layout/footer'); %>
 
-  <%- partial('../../../partials/layout/scripts') %>
+  <%- include('../../../partials/layout/scripts'); %>
 
 </body>
 </html>

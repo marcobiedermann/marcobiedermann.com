@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/WebPage">
 
-<%- partial('../partials/layout/head', {
+<%- include('../partials/layout/head', {
   page: {
     title: 'Marco Biedermann | Frontend Webdeveloper & Graphic Designer'
   }
-}) %>
+}); %>
 
 <body>
 
-  <%- partial('../partials/layout/header') %>
+  <%- include('../partials/layout/header'); %>
 
   <div class="site__container">
 
@@ -87,10 +87,10 @@
               <h2 class="headline--lined">Work</h2>
               <p class="center-block">Take a look at some of my projects I’ve been working on.</p>
 
-              <%- partial('../partials/modules/projects', {
+              <%- include('../partials/modules/projects', {
                 projects: data.projects,
                 limit: 8
-              }) %>
+              }); %>
 
               <p><a class="button button--light" href="projects/" title="More of my project">see more Work</a></p>
             </div>
@@ -134,9 +134,9 @@
 
   </div>
 
-  <%- partial('../partials/layout/footer') %>
+  <%- include('../partials/layout/footer'); %>
 
-  <%- partial('../partials/layout/scripts') %>
+  <%- include('../partials/layout/scripts'); %>
 
 </body>
 </html>
