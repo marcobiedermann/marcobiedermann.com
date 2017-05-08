@@ -54,6 +54,7 @@ gulp.task('copy', () => {
     `${dirs.source}/apple-touch-icon-precomposed.png`,
     `${dirs.source}/favicon.ico`,
     `${dirs.source}/favicon.svg`,
+    `${dirs.source}/manifest.json`,
     `${dirs.source}/tile-wide.png`,
     `${dirs.source}/tile.png`
   ])
@@ -187,7 +188,7 @@ gulp.task('lint:js', () => {
 });
 
 gulp.task('lint:json', () => {
-  return gulp.src(`${dirs.source}/data/**/*.json`)
+  return gulp.src(`${dirs.source}/**/*.json`)
     .pipe(gulpJsonlint())
     .pipe(gulpJsonlint.reporter());
 });
