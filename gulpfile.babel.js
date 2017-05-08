@@ -48,16 +48,16 @@ function getRev() {
 
 gulp.task('copy', () => {
   return gulp.src([
-      `${dirs.source}/**/*.txt`,
-      `${dirs.source}/**/*.xml`,
-      `${dirs.source}/CNAME`,
-      `${dirs.source}/apple-touch-icon-precomposed.png`,
-      `${dirs.source}/favicon.ico`,
-      `${dirs.source}/favicon.svg`,
-      `${dirs.source}/tile-wide.png`,
-      `${dirs.source}/tile.png`
-    ])
-    .pipe(gulp.dest(`${dirs.dest}`));
+    `${dirs.source}/**/*.txt`,
+    `${dirs.source}/**/*.xml`,
+    `${dirs.source}/CNAME`,
+    `${dirs.source}/apple-touch-icon-precomposed.png`,
+    `${dirs.source}/favicon.ico`,
+    `${dirs.source}/favicon.svg`,
+    `${dirs.source}/tile-wide.png`,
+    `${dirs.source}/tile.png`
+  ])
+  .pipe(gulp.dest(`${dirs.dest}`));
 });
 
 gulp.task('deploy', () => {
@@ -68,8 +68,8 @@ gulp.task('deploy', () => {
 gulp.task('critical', ['html'], () => {
   return gulp.src('./dist/**/*.html')
     .pipe(critical.stream({
-      base: 'dist/',
-      css: `${dirs.dest}/assets/css/${getRev()['style.css']}`,
+      base  : 'dist/',
+      css   : `${dirs.dest}/assets/css/${getRev()['style.css']}`,
       inline: true
     }))
     .pipe(gulpHtmlmin({
@@ -153,8 +153,8 @@ gulp.task('images:webp', () => {
 
 gulp.task('js', () => {
   const b = browserify({
-    entries: `${dirs.source}/assets/js/script.js`,
-    debug: true,
+    entries  : `${dirs.source}/assets/js/script.js`,
+    debug    : true,
     transform: [babelify]
   });
 
@@ -192,6 +192,12 @@ gulp.task('lint:json', () => {
     .pipe(gulpJsonlint.reporter());
 });
 
+gulp.task('svg:assets', () => {
+  return gulp.src(`${dirs.source}/assets/images/*.svg`)
+    .pipe(gulpSvgmin())
+    .pipe(gulp.dest(`${dirs.dest}/assets/images`));
+});
+
 gulp.task('svg:content', () => {
   return gulp.src(`${dirs.source}/content/images/**/*.svg`)
     .pipe(gulpSvgmin())
@@ -225,16 +231,17 @@ gulp.task('images', [
 ]);
 
 gulp.task('svg', [
+  'svg:assets',
   'svg:content',
   'svg:icons'
 ]);
 
 gulp.task('default', [
   'copy',
-  'copy:images',
   'fonts',
   'html',
   'images',
+  'svg:assets',
   'svg:content',
   'watch'
 ]);
@@ -244,6 +251,7 @@ gulp.task('build', [
   'critical',
   'fonts',
   'images',
+  'svg:assets',
   'svg:content'
 ]);
 
