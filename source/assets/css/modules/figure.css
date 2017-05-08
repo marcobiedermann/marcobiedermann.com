@@ -7,10 +7,7 @@
 
 figure {
   display: block;
-  margin-bottom: var(--figureMarginBottom);
-  margin-left: var(--figureMarginLeft);
-  margin-right: var(--figureMarginRight);
-  margin-top: var(--figureMarginTop);
+  margin: var(--figureMarginTop) var(--figureMarginRight) var(--figureMarginBottom) var(--figureMarginLeft);
 }
 
 figcaption {

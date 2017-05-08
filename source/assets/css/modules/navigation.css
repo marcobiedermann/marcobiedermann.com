@@ -1,9 +1,29 @@
-nav {
-  display: block;
+@keyframes hoverIn {
+
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
 }
 
-.navigation {
+@keyframes hoverOut {
 
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(101%);
+  }
+
+}
+
+nav {
+  display: block;
 }
 
 .navigation ul {
@@ -17,17 +37,94 @@ nav {
 }
 
 .navigation a {
-  color: #f8f9fB;
+  color: #f8f9fb;
   display: inline-block;
 }
 
-.navigation--inline {
+.navigation--main {
+  background-color: #0a0a0a;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  transform: translateZ(0);
+  transition: opacity 0.3s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation--main.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navigation--main ul {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+@media (min-width: 30em) {
+
+  .navigation--main ul {
+    font-size: 4.5rem;
+  }
 
 }
 
+.navigation--main a {
+  overflow: hidden;
+  padding: 0.25rem 0;
+  position: relative;
+}
+
+.navigation--main a::after {
+  animation: hoverOut 0.5s cubic-bezier(0.77, 0, 0.175, 1) 0 1 both;
+  background-color: #f8f9fb;
+  bottom: 0;
+  content: '';
+  height: 0.125rem;
+  left: 0;
+  position: absolute;
+  top: auto;
+  transform: translateX(-100%);
+  width: 100%;
+  z-index: 1;
+}
+
+.navigation--main a:hover::after {
+  animation: hoverIn 0.5s cubic-bezier(0.77, 0, 0.175, 1) 0 1 both;
+}
+
+.navigation--main a.is--active::after {
+  animation: none;
+  transform: translateX(0);
+}
+
+@media (min-width: 30em) {
+
+  .navigation--footer {
+    float: right;
+  }
+
+}
+
+.navigation__button {
+  background-color: #0a0a0a;
+  height: 40px;
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  width: 40px;
+  z-index: 2;
+}
+
 .navigation--inline > ul {
-  margin-left: -.5rem;
-  margin-right: -.5rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 .navigation--inline > ul::before,
@@ -42,13 +139,8 @@ nav {
 
 .navigation--inline > ul > li {
   float: left;
-  margin-left: .5rem;
-  margin-right: .5rem;
-}
-
-.navigation__dropdown:focus > ul,
-.navigation__dropdown:hover > ul {
-  display: block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .navigation__dropdown > ul {
@@ -77,83 +169,7 @@ nav {
   left: 0;
 }
 
-.navigation--main {
-  background-color: #0a0a0a;
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: fixed;
-  text-align: center;
-  text-transform: uppercase;
-  top: 0;
-  transform: translateZ(0);
-  transition: opacity .3s;
-  visibility: hidden;
-  width: 100%;
-  z-index: 1;
-}
-
-.navigation--main.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-.navigation--main ul {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-@media (min-width: 30em) {
-
-  .navigation--main ul {
-    font-size: 4.5rem
-  }
-
-}
-
-.navigation--main a {
-  overflow: hidden;
-  padding: .25rem 0;
-  position: relative;
-}
-
-.navigation--main a::after {
-  animation: hoverOut 0.5s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both;
-  background-color: #fff;
-  bottom: 0;
-  content: '';
-  height: 0.125rem;
-  left: 0;
-  position: absolute;
-  top: auto;
-  transform: translateX(-100%);
-  width: 100%;
-  z-index: 1
-}
-
-.navigation--main a:hover::after {
-  animation: hoverIn 0.5s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both;
-}
-
-.navigation--main a.is--active::after {
-  animation: none;
-  transform: translateX(0);
-}
-
-@media (min-width: 30em) {
-
-  .navigation--footer {
-    float: right
-  }
-
-}
-
-.navigation__button {
-  background-color: #0a0a0a;
-  height: 40px;
-  position: fixed;
-  right: 2rem;
-  top: 2rem;
-  width: 40px;
-  z-index: 2;
+.navigation__dropdown:focus > ul,
+.navigation__dropdown:hover > ul {
+  display: block;
 }

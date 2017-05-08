@@ -1,8 +1,8 @@
 :root {
   --buttonBgColor: transparent;
-  --buttonColor: #fff;
+  --buttonColor: #f8f9fb;
   --buttonPaddingHorizontal: 1rem;
-  --buttonPaddingVertical: .5rem;
+  --buttonPaddingVertical: 0.5rem;
 
   --buttonHoverBgColor: color(var(--buttonBgColor) blackness(10%));
   --buttonHoverColor: color(var(--buttonColor) blackness(10%));
@@ -30,8 +30,8 @@ button::-moz-focus-inner {
   background-color: var(--buttonBgColor);
   color: var(--buttonColor);
   display: inline-block;
-  padding: var(--buttonPaddingVertical) var(--buttonPaddingHorizontal);
   overflow: hidden;
+  padding: var(--buttonPaddingVertical) var(--buttonPaddingHorizontal);
   position: relative;
   z-index: 1;
 }
@@ -46,12 +46,6 @@ button::-moz-focus-inner {
   transform: scale(1.01);
 }
 
-.button:focus::after,
-.button:hover::after {
-  opacity: 1;
-  transform: translate(-50%, -50%) rotate(45deg) scaleY(1);
-}
-
 .button::after {
   content: '';
   height: 320%;
@@ -60,14 +54,20 @@ button::-moz-focus-inner {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg) scaleY(0);
-  transition: transform .3s, opacity .3s;
+  transition: transform 0.3s, opacity 0.3s;
   width: 100%;
   z-index: -1;
 }
 
+.button:focus::after,
+.button:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(45deg) scaleY(1);
+}
+
 .button--light {
-  border: 1px solid #f8f9fB;
-  color: #f8f9fB;
+  border: 1px solid;
+  color: #f8f9fb;
 }
 
 .button--dark,
@@ -77,7 +77,7 @@ button::-moz-focus-inner {
 }
 
 .button--light::after {
-  background-color: #f8f9fB;
+  background-color: #f8f9fb;
 }
 
 .button--dark {
@@ -86,9 +86,9 @@ button::-moz-focus-inner {
 
 .button--dark:focus,
 .button--dark:hover {
-  color: #f8f9fB;
+  color: #f8f9fb;
 }
 
-.button--dark:after {
-    background-color: #0a0a0a
+.button--dark::after {
+  background-color: #0a0a0a;
 }

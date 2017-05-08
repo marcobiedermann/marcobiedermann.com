@@ -6,7 +6,7 @@
 .lazyloaded {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity .75s, transform .75s;
+  transition: opacity 0.75s, transform 0.75s;
 }
 
 .no-js .lazyload {

@@ -2,6 +2,16 @@
 
 @import 'fonts/montserrat.css';
 
+@import 'helpers/animations.css';
+@import 'helpers/utilities.css';
+
+@import 'layout/base.css';
+@import 'layout/container.css';
+@import 'layout/footer.css';
+@import 'layout/header.css';
+@import 'layout/main.css';
+@import 'layout/section.css';
+
 @import 'modules/align.css';
 @import 'modules/anchor.css';
 @import 'modules/button.css';
@@ -18,13 +28,3 @@
 @import 'modules/project.css';
 @import 'modules/table.css';
 @import 'modules/text.css';
-
-@import 'layout/base.css';
-@import 'layout/container.css';
-@import 'layout/footer.css';
-@import 'layout/header.css';
-@import 'layout/main.css';
-@import 'layout/section.css';
-
-@import 'helpers/animations.css';
-@import 'helpers/utilities.css';

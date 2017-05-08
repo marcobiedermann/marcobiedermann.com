@@ -1,6 +1,6 @@
 :root {
   --h1Color: inherit;
-  --h1FontFamily: Montserrat;
+  --h1FontFamily: 'Montserrat';
   --h1FontFamilyFallback: var(--baseFontFamilyFallback);
   --h1FontSize: 3rem;
   --h1FontWeight: 700;
@@ -10,7 +10,7 @@
   --h1TextTransform: uppercase;
 
   --h2Color: inherit;
-  --h2FontFamily: Montserrat;
+  --h2FontFamily: 'Montserrat';
   --h2FontFamilyFallback: var(--baseFontFamilyFallback);
   --h2FontSize: 3.5rem;
   --h2FontWeight: 700;
@@ -20,42 +20,42 @@
   --h2TextTransform: uppercase;
 
   --h3Color: inherit;
-  --h3FontFamily: Montserrat;
+  --h3FontFamily: 'Montserrat';
   --h3FontFamilyFallback: var(--baseFontFamilyFallback);
   --h3FontSize: 1.5rem;
   --h3FontWeight: 700;
   --h3LineHeight: 1.3;
-  --h3MarginBottom: .5rem;
+  --h3MarginBottom: 0.5rem;
   --h3MarginTop: 0;
   --h3TextTransform: uppercase;
 
   --h4Color: inherit;
-  --h4FontFamily: Montserrat;
+  --h4FontFamily: 'Montserrat';
   --h4FontFamilyFallback: var(--baseFontFamilyFallback);
   --h4FontSize: 1rem;
   --h4FontWeight: 700;
   --h4LineHeight: 1.2;
-  --h4MarginBottom: .5rem;
+  --h4MarginBottom: 0.5rem;
   --h4MarginTop: 0;
   --h4TextTransform: uppercase;
 
   --h5Color: inherit;
-  --h5FontFamily: Montserrat;
+  --h5FontFamily: 'Montserrat';
   --h5FontFamilyFallback: var(--baseFontFamilyFallback);
-  --h5FontSize: .875rem;
+  --h5FontSize: 0.875rem;
   --h5FontWeight: 700;
   --h5LineHeight: 1.2;
-  --h5MarginBottom: .5rem;
+  --h5MarginBottom: 0.5rem;
   --h5MarginTop: 0;
   --h5TextTransform: uppercase;
 
   --h6Color: inherit;
-  --h6FontFamily: Montserrat;
+  --h6FontFamily: 'Montserrat';
   --h6FontFamilyFallback: var(--baseFontFamilyFallback);
-  --h6FontSize: .75rem;
+  --h6FontSize: 0.75rem;
   --h6FontWeight: 700;
   --h6LineHeight: 1.2;
-  --h6MarginBottom: .5rem;
+  --h6MarginBottom: 0.5rem;
   --h6MarginTop: 0;
   --h6TextTransform: uppercase;
 }
@@ -147,7 +147,7 @@ h6 {
   text-align: center;
 }
 
-.headline--lined:after {
+.headline--lined::after {
   background-color: #0a0a0a;
   bottom: 0;
   content: '';

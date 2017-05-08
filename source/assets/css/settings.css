@@ -1,7 +1,7 @@
 :root {
-  --baseBgColor: #f8f9fB;
+  --baseBgColor: #f8f9fb;
   --baseColor: #0a0a0a;
-  --baseFontFamily: Montserrat;
+  --baseFontFamily: 'Montserrat';
   --baseFontFamilyFallback: sans-serif;
   --baseFontSize: 1.125rem;
   --baseFontWeight: 300;

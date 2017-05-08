@@ -1,7 +1,7 @@
 :root {
   --tableMarginBottom: 3rem;
 
-  --tableCellPadding: .5rem;
+  --tableCellPadding: 0.5rem;
 }
 
 table {

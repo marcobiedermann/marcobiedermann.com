@@ -1,6 +1,6 @@
 :root {
   --footerBgColor: #0a0a0a;
-  --footerColor: #f8f9fB;
+  --footerColor: #f8f9fb;
   --footerFontSize: 1rem;
   --footerPaddingVertical: 1rem;
 }
@@ -28,5 +28,5 @@ footer {
 }
 
 .site__footer .icon {
-  fill: #f8f9fB;
+  fill: #f8f9fb;
 }
