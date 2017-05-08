@@ -5,6 +5,7 @@ function scrollTo(Y, duration, easingFunction, callback) {
 
   if (from === Y) {
     callback();
+
     return;
   }
 

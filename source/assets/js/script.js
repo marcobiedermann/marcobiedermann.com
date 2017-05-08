@@ -11,7 +11,7 @@ document.querySelector('.js-toggle').addEventListener('click', function() {
 // ScrollTo
 const elementsScrollTo = document.querySelectorAll('.js-scroll-to');
 
-Array.prototype.forEach.call(elementsScrollTo, (element) => {
+Array.prototype.forEach.call(elementsScrollTo, element => {
   element.addEventListener('click', () => {
     scrollTo(document.getElementById(element.href.split('#')[1]).offsetTop, 600, easing.easeInOutCubic);
   })
@@ -21,17 +21,17 @@ Array.prototype.forEach.call(elementsScrollTo, (element) => {
 const paginationPrevious = document.querySelector('.pagination__previous a');
 const paginationNext     = document.querySelector('.pagination__next a');
 
-window.addEventListener('keydown', (event) => {
+window.addEventListener('keydown', event => {
   switch (event.keyCode) {
-    case 37:
-      if (paginationPrevious) {
-        window.location = paginationPrevious.href;
-      }
-      break;
-    case 39:
-      if (paginationNext) {
-        window.location = paginationNext.href;
-      }
-      break;
+  case 37:
+    if (paginationPrevious) {
+      window.location = paginationPrevious.href;
+    }
+    break;
+  case 39:
+    if (paginationNext) {
+      window.location = paginationNext.href;
+    }
+    break;
   }
 });
