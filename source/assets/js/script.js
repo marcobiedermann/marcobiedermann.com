@@ -3,6 +3,16 @@ import svg4everybody from 'svg4everybody';
 import easing        from './easing';
 import scrollTo      from './scroll-to';
 
+// Google Analytics
+window.ga = window.ga || function() {
+  (ga.q = ga.q || []).push(arguments)
+};
+
+ga.l = +new Date;
+
+ga('create', 'UA-46884111-4', 'auto');
+ga('send', 'pageview');
+
 // Toggle
 document.querySelector('.js-toggle').addEventListener('click', function() {
   document.querySelector(this.getAttribute('data-target')).classList.toggle('active');
