@@ -19,12 +19,10 @@ document.querySelector('.js-toggle').addEventListener('click', function() {
 })
 
 // ScrollTo
-const elementsScrollTo = document.querySelectorAll('.js-scroll-to');
-
-Array.prototype.forEach.call(elementsScrollTo, element => {
+document.querySelectorAll('.js-scroll-to').forEach(element => {
   element.addEventListener('click', () => {
     scrollTo(document.getElementById(element.href.split('#')[1]).offsetTop, 600, easing.easeInOutCubic);
-  })
+  });
 });
 
 // Svg4Everybody
