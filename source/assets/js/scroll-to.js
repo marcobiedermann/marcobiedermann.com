@@ -1,5 +1,5 @@
 function scrollTo(Y, duration, easingFunction, callback) {
-  const start   = Date.now();
+  const start   = performance.now();
   const element = document.documentElement.scrollTop ? document.documentElement : document.body;
   const from    = element.scrollTop;
 
@@ -14,7 +14,7 @@ function scrollTo(Y, duration, easingFunction, callback) {
   }
 
   function scroll(timestamp) {
-    const currentTime = Date.now();
+    const currentTime = performance.now();
     const time        = min(1, ((currentTime - start) / duration));
     const easedT      = easingFunction(time);
 
