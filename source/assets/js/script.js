@@ -27,6 +27,9 @@ Array.prototype.forEach.call(elementsScrollTo, element => {
   })
 });
 
+// Svg4Everybody
+svg4everybody();
+
 // Pagination
 const paginationPrevious = document.querySelector('.pagination__previous a');
 const paginationNext     = document.querySelector('.pagination__next a');
