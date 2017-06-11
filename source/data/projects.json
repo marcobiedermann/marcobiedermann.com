@@ -185,6 +185,150 @@
       "tags": ["Website"]
     },
     {
+      "title": "Daily UI #080 Date Picker",
+      "date": "2016-03-01",
+      "url": "daily-ui/080-date-picker",
+      "description": "",
+      "thumbnail": "daily-ui/080-date-picker/date-picker",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #079 Itinerary",
+      "date": "2016-02-29",
+      "url": "daily-ui/079-itinerary",
+      "description": "",
+      "thumbnail": "daily-ui/079-itinerary/itinerary",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #078 Pending Invitation",
+      "date": "2016-02-26",
+      "url": "daily-ui/078-pending-invitation",
+      "description": "",
+      "thumbnail": "daily-ui/078-pending-invitation/pending-invitation",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #077 Thank You",
+      "date": "2016-02-25",
+      "url": "daily-ui/077-thank-you",
+      "description": "",
+      "thumbnail": "daily-ui/077-thank-you/thank-you",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #076 Loading…",
+      "date": "2016-02-24",
+      "url": "daily-ui/076-loading",
+      "description": "",
+      "thumbnail": "daily-ui/076-loading/loading",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #075 Pre-Order",
+      "date": "2016-02-23",
+      "url": "daily-ui/075-pre-order",
+      "description": "",
+      "thumbnail": "daily-ui/075-pre-order/pre-order",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #074 Download App",
+      "date": "2016-02-22",
+      "url": "daily-ui/074-download-app",
+      "description": "",
+      "thumbnail": "daily-ui/074-download-app/download-app",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #073 Virtual Reality",
+      "date": "2016-02-19",
+      "url": "daily-ui/073-virtual-reality",
+      "description": "",
+      "thumbnail": "daily-ui/073-virtual-reality/virtual-reality",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #072 Image Slider",
+      "date": "2016-02-18",
+      "url": "daily-ui/072-image-slider",
+      "description": "",
+      "thumbnail": "daily-ui/072-image-slider/image-slider",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #071 Schedule",
+      "date": "2016-02-17",
+      "url": "daily-ui/071-schedule",
+      "description": "",
+      "thumbnail": "daily-ui/071-schedule/schedule",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #070 Event Listing",
+      "date": "2016-02-16",
+      "url": "daily-ui/070-event-listing",
+      "description": "",
+      "thumbnail": "daily-ui/070-event-listing/event-listing",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #069 Trending",
+      "date": "2016-02-15",
+      "url": "daily-ui/069-trending",
+      "description": "",
+      "thumbnail": "daily-ui/069-trending/trending",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #068 Flight Search",
+      "date": "2016-02-12",
+      "url": "daily-ui/068-flight-search",
+      "description": "",
+      "thumbnail": "daily-ui/068-flight-search/flight-search",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #067 Hotel Booking",
+      "date": "2016-02-11",
+      "url": "daily-ui/067-hotel-booking",
+      "description": "",
+      "thumbnail": "daily-ui/067-hotel-booking/hotel-booking",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #066 Statistics",
+      "date": "2016-02-10",
+      "url": "daily-ui/066-statistics",
+      "description": "",
+      "thumbnail": "daily-ui/066-statistics/statistics",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #065 Notes Widget",
+      "date": "2016-02-09",
+      "url": "daily-ui/065-notes-widget",
+      "description": "",
+      "thumbnail": "daily-ui/065-notes-widget/notes-widget",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #064 Select User Type",
+      "date": "2016-02-08",
+      "url": "daily-ui/064-select-user-type",
+      "description": "",
+      "thumbnail": "daily-ui/064-select-user-type/select-user-type",
+      "tags": ["Daily UI"]
+    },
+    {
+      "title": "Daily UI #063 Best of 2015",
+      "date": "2016-02-05",
+      "url": "daily-ui/063-best-of-2015",
+      "description": "",
+      "thumbnail": "daily-ui/063-best-of-2015/best-of-2015",
+      "tags": ["Daily UI"]
+    },
+    {
       "title": "Daily UI #062 Workout of the Day",
       "date": "2016-02-04",
       "url": "daily-ui/062-workout-of-the-day/",
