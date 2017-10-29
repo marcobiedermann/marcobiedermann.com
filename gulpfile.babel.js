@@ -61,9 +61,9 @@ gulp.task('copy', () => {
 });
 
 gulp.task('critical', ['html'], () => {
-  return gulp.src('./dist/**/*.html')
+  return gulp.src(`./${dirs.dest}/**/*.html`)
     .pipe(critical.stream({
-      base  : 'dist/',
+      base  : `${dirs.dest}/`,
       css   : `${dirs.dest}/assets/css/${getRev()['style.css']}`,
       inline: true
     }))
@@ -85,7 +85,7 @@ gulp.task('critical', ['html'], () => {
       removeStyleLinkTypeAttributes: true,
       useShortDoctype              : true
     }))
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest(`./${dirs.dest}`))
 });
 
 gulp.task('css', () => {
@@ -242,7 +242,7 @@ gulp.task('build', [
   'copy',
   'critical',
   'fonts',
-  'images',
+  // 'images',
   'svg:assets',
   'svg:content'
 ]);
