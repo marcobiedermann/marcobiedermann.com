@@ -1,0 +1,15 @@
+{
+  "background_color": "#f8f9fb",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "apple-touch-icon-precomposed.png",
+      "sizes": "192x192"
+    }
+  ],
+  "name": "Marco Biedermann",
+  "orientation": "portrait",
+  "short_name": "Marco",
+  "start_url": ".",
+  "theme_color": "#0a0a0a"
+}

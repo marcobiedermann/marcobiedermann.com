@@ -6,7 +6,6 @@ import gulp              from 'gulp';
 import gulpCleanCss      from 'gulp-clean-css';
 import gulpEjs           from 'gulp-ejs';
 import gulpEslint        from 'gulp-eslint';
-import gulpGhPages       from 'gulp-gh-pages';
 import gulpHtmlmin       from 'gulp-htmlmin';
 import gulpImagemin      from 'gulp-imagemin';
 import gulpJsonlint      from 'gulp-jsonlint';
@@ -28,7 +27,7 @@ import vinylSourceStream from 'vinyl-source-stream';
 
 const dirs = {
   source: './source',
-  dest  : './dist'
+  dest  : './docs'
 };
 
 function getJSONFromCssModules(cssFileName, json) {
@@ -59,11 +58,6 @@ gulp.task('copy', () => {
     `${dirs.source}/tile.png`
   ])
   .pipe(gulp.dest(`${dirs.dest}`));
-});
-
-gulp.task('deploy', () => {
-  return gulp.src(`${dirs.dest}/**/*`)
-    .pipe(gulpGhPages());
 });
 
 gulp.task('critical', ['html'], () => {
