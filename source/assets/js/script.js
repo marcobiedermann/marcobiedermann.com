@@ -1,13 +1,13 @@
 import svg4everybody from 'svg4everybody';
 
-import analytics from './analytics';
+import googleAnalytics from './google-analytics';
 import lazyload from './lazyload';
 import navigation from './navigation';
 import pagination from './pagination';
 import scroll from './scroll';
 
 function main() {
-  analytics();
+  googleAnalytics();
   lazyload();
   navigation();
   pagination();
