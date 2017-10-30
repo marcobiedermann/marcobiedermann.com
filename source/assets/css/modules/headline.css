@@ -8,7 +8,6 @@
   --h1MarginBottom: 1.5rem;
   --h1MarginTop: 0;
   --h1TextTransform: uppercase;
-
   --h2Color: inherit;
   --h2FontFamily: 'Montserrat';
   --h2FontFamilyFallback: var(--baseFontFamilyFallback);
@@ -18,7 +17,6 @@
   --h2MarginBottom: 1.5rem;
   --h2MarginTop: 0;
   --h2TextTransform: uppercase;
-
   --h3Color: inherit;
   --h3FontFamily: 'Montserrat';
   --h3FontFamilyFallback: var(--baseFontFamilyFallback);
@@ -28,7 +26,6 @@
   --h3MarginBottom: 0.5rem;
   --h3MarginTop: 0;
   --h3TextTransform: uppercase;
-
   --h4Color: inherit;
   --h4FontFamily: 'Montserrat';
   --h4FontFamilyFallback: var(--baseFontFamilyFallback);
@@ -38,7 +35,6 @@
   --h4MarginBottom: 0.5rem;
   --h4MarginTop: 0;
   --h4TextTransform: uppercase;
-
   --h5Color: inherit;
   --h5FontFamily: 'Montserrat';
   --h5FontFamilyFallback: var(--baseFontFamilyFallback);
@@ -48,7 +44,6 @@
   --h5MarginBottom: 0.5rem;
   --h5MarginTop: 0;
   --h5TextTransform: uppercase;
-
   --h6Color: inherit;
   --h6FontFamily: 'Montserrat';
   --h6FontFamilyFallback: var(--baseFontFamilyFallback);
@@ -72,11 +67,9 @@ h1 {
 }
 
 @media (min-width: 30em) {
-
   h1 {
     font-size: 4.5rem;
   }
-
 }
 
 h2 {
@@ -102,11 +95,9 @@ h3 {
 }
 
 @media (min-width: 30em) {
-
   h3 {
     font-size: 1.75rem;
   }
-
 }
 
 h4 {

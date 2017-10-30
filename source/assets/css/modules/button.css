@@ -3,7 +3,6 @@
   --buttonColor: #f8f9fb;
   --buttonPaddingHorizontal: 1rem;
   --buttonPaddingVertical: 0.5rem;
-
   --buttonHoverBgColor: color(var(--buttonBgColor) blackness(10%));
   --buttonHoverColor: color(var(--buttonColor) blackness(10%));
 }

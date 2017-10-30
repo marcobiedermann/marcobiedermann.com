@@ -12,19 +12,15 @@
 }
 
 @media (min-width: 30em) {
-
   .logos li {
     flex-basis: 33.3333%;
   }
-
 }
 
 @media (min-width: 48em) {
-
   .logos li {
     flex-basis: 25%;
   }
-
 }
 
 .logos a {

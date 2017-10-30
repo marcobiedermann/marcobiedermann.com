@@ -1,5 +1,4 @@
 @keyframes hoverIn {
-
   0% {
     transform: translateX(-100%);
   }
@@ -7,11 +6,9 @@
   100% {
     transform: translateX(0);
   }
-
 }
 
 @keyframes hoverOut {
-
   0% {
     transform: translateX(0);
   }
@@ -19,7 +16,6 @@
   100% {
     transform: translateX(101%);
   }
-
 }
 
 nav {
@@ -68,11 +64,9 @@ nav {
 }
 
 @media (min-width: 30em) {
-
   .navigation--main ul {
     font-size: 4.5rem;
   }
-
 }
 
 .navigation--main a {
@@ -105,11 +99,9 @@ nav {
 }
 
 @media (min-width: 30em) {
-
   .navigation--footer {
     float: right;
   }
-
 }
 
 .navigation__button {

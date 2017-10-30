@@ -1,7 +1,6 @@
 :root {
   --anchorColor: var(--colorPrimary);
   --anchorTextDecoration: none;
-
   --anchorActiveColor: #cb9559;
   --anchorHoverColor: #90622e;
 }

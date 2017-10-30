@@ -22,7 +22,6 @@
 }
 
 @media (min-width: 48em) {
-
   .projects li:nth-child(5n+1) {
     width: 65.6667%;
   }
@@ -31,7 +30,6 @@
   .projects li:nth-child(5n+3) {
     width: 32.3333%;
   }
-
 }
 
 .project {

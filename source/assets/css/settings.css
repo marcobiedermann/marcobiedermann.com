@@ -6,9 +6,7 @@
   --baseFontSize: 1.125rem;
   --baseFontWeight: 300;
   --baseLineHeight: 1.75;
-
   --colorPrimary: #b77c3a;
-
   --borderColor: #bdbdbd;
   --borderHoverColor: color(var(--borderColor), darkness(20%));
 }

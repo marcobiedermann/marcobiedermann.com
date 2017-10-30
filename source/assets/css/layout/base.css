@@ -1,6 +1,5 @@
 :root {
   --htmlFontSize: 100%;
-
   --bodyBgColor: var(--baseBgColor);
   --bodyColor: var(--baseColor);
   --bodyFontFamily: var(--baseFontFamily);
@@ -27,7 +26,6 @@ html {
   font-size: var(--htmlFontSize);
   height: 100%;
   text-rendering: optimizeLegibility;
-  text-size-adjust: 100%;
 }
 
 body {

@@ -35,7 +35,6 @@
 }
 
 @media (min-width: 48em) {
-
   .grid__col--1 {
     flex-basis: calc(100% / var(--gridColumns) * 1 - var(--gridGutter));
   }
@@ -83,5 +82,4 @@
   .grid__col--12 {
     flex-basis: calc(100% / var(--gridColumns) * 12 - var(--gridGutter));
   }
-
 }
