@@ -1,31 +1,31 @@
 <ul class="projects">
-  <% for (let i = 0, length = (typeof limit === 'undefined') ? projects.length : limit; i < length; i++) { %>
-  <li>
-    <article class="project" itemscope="" itemtype="http://schema.org/CreativeWork">
+  <% projects.slice(skip, skip + limit).map(project => { %>
+    <li>
+      <article class="project" itemscope="" itemtype="http://schema.org/CreativeWork">
 
-      <figure>
-        <a href="projects/<%= projects[i].url %>" itemprop="url">
-          <picture>
-            <source data-srcset="content/images/projects/<%= projects[i].thumbnail %>.webp" type="image/webp">
-            <img data-src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" class="lazyload" itemprop="image">
-          </picture>
-
-          <noscript>
+        <figure>
+          <a href="projects/<%= project.url %>" itemprop="url">
             <picture>
-              <source srcset="content/images/projects/<%= projects[i].thumbnail %>.webp" type="image/webp">
-              <img src="content/images/projects/<%= projects[i].thumbnail %>.png" alt="<%= projects[i].title %>" width="800" height="600" itemprop="image">
+              <source data-srcset="content/images/projects/<%= project.thumbnail %>.webp" type="image/webp">
+              <img data-src="content/images/projects/<%= project.thumbnail %>.png" alt="<%= project.title %>" width="800" height="600" class="lazyload" itemprop="image">
             </picture>
-          </noscript>
 
-          <figcaption>
-            <div class="project__caption">
-              <h3 class="project__title" itemprop="name"><%= projects[i].title %></h3>
-            </div>
-          </figcaption>
-        </a>
-      </figure>
+            <noscript>
+              <picture>
+                <source srcset="content/images/projects/<%= project.thumbnail %>.webp" type="image/webp">
+                <img src="content/images/projects/<%= project.thumbnail %>.png" alt="<%= project.title %>" width="800" height="600" itemprop="image">
+              </picture>
+            </noscript>
 
-    </article>
-  </li>
-  <% }%>
+            <figcaption>
+              <div class="project__caption">
+                <h3 class="project__title" itemprop="name"><%= project.title %></h3>
+              </div>
+            </figcaption>
+          </a>
+        </figure>
+
+      </article>
+    </li>
+  <% }) %>
 </ul>

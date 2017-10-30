@@ -30,7 +30,9 @@
               <p class=center-block>Take a look at some of my projects I’ve been working on.</p>
 
               <%- include('../../partials/modules/projects', {
-                projects: data.projects
+                projects: data.projects,
+                limit: -1,
+                skip: 0,
               }); %>
 
             </div>
