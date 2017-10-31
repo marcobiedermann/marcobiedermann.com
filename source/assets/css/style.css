@@ -15,7 +15,6 @@
 @import 'modules/headline.css';
 @import 'modules/icon.css';
 @import 'modules/image.css';
-@import 'modules/lazyload.css';
 @import 'modules/list.css';
 @import 'modules/logo.css';
 @import 'modules/navigation.css';
@@ -24,3 +23,4 @@
 @import 'modules/table.css';
 @import 'modules/text.css';
 @import 'themes/default.css';
+@import 'vendor/lozad.css';

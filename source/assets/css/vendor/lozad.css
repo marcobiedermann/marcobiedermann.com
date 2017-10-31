@@ -1,14 +1,14 @@
-.lazyload {
+.lozad {
   opacity: 0;
   transform: translateY(15%);
+  transition: opacity 1s, transform 1s;
 }
 
-.lazyloaded {
+.lozad[data-loaded='true'] {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.75s, transform 0.75s;
 }
 
-.no-js .lazyload {
+.no-js .lozad {
   display: none;
 }
