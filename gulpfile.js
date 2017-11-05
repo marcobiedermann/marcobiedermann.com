@@ -1,6 +1,5 @@
 const babelify          = require('babelify');
 const browserify        = require('browserify');
-const critical          = require('critical');
 const fs                = require('fs');
 const gulp              = require('gulp');
 const gulpCleanCss      = require('gulp-clean-css');
@@ -19,7 +18,7 @@ const gulpWebp          = require('gulp-webp');
 const path              = require('path');
 const postcssCssnext    = require('postcss-cssnext');
 const postcssImport     = require('postcss-import');
-const postcssModules    = require('postcss-modules');
+// const postcssModules    = require('postcss-modules');
 const postcssReporter   = require('postcss-reporter');
 const stylelint         = require('stylelint');
 const vinylBuffer       = require('vinyl-buffer');
@@ -58,34 +57,6 @@ gulp.task('copy', () => {
     `${dirs.source}/tile.png`
   ])
   .pipe(gulp.dest(`${dirs.dest}`));
-});
-
-gulp.task('critical', ['html'], () => {
-  return gulp.src(`./${dirs.dest}/**/*.html`)
-    .pipe(critical.stream({
-      base  : `${dirs.dest}/`,
-      css   : `${dirs.dest}/assets/css/${getRev()['style.css']}`,
-      inline: true
-    }))
-    .pipe(gulpHtmlmin({
-      caseSensitive                : true,
-      collapseBooleanAttributes    : true,
-      collapseWhitespace           : true,
-      minifyCSS                    : true,
-      minifyJS                     : true,
-      minifyURLs                   : false,
-      removeAttributeQuotes        : true,
-      removeCDATASectionsFromCDATA : true,
-      removeComments               : true,
-      removeCommentsFromCDATA      : true,
-      removeEmptyAttributes        : true,
-      removeOptionalTags           : true,
-      removeRedundantAttributes    : true,
-      removeScriptTypeAttributes   : true,
-      removeStyleLinkTypeAttributes: true,
-      useShortDoctype              : true
-    }))
-    .pipe(gulp.dest(`./${dirs.dest}`))
 });
 
 gulp.task('css', () => {
@@ -127,6 +98,24 @@ gulp.task('html', ['css', 'js', 'svg:icons'], () => {
       rev      : getRev()
     }, {}, {
       ext: '.html'
+    }))
+    .pipe(gulpHtmlmin({
+      caseSensitive                : true,
+      collapseBooleanAttributes    : true,
+      collapseWhitespace           : true,
+      minifyCSS                    : true,
+      minifyJS                     : true,
+      minifyURLs                   : false,
+      removeAttributeQuotes        : true,
+      removeCDATASectionsFromCDATA : true,
+      removeComments               : true,
+      removeCommentsFromCDATA      : true,
+      removeEmptyAttributes        : true,
+      removeOptionalTags           : true,
+      removeRedundantAttributes    : true,
+      removeScriptTypeAttributes   : true,
+      removeStyleLinkTypeAttributes: true,
+      useShortDoctype              : true
     }))
     .pipe(gulp.dest(`${dirs.dest}`));
 });
@@ -240,7 +229,6 @@ gulp.task('default', [
 
 gulp.task('build', [
   'copy',
-  'critical',
   'fonts',
   // 'images',
   'svg:assets',
