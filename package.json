@@ -5,7 +5,7 @@
   "scripts": {
     "start": "gulp",
     "build": "rm -rf docs; gulp build",
-    "test": "gulp lint"
+    "test": "gulp lint",
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,9 @@
     "gulp-clean-css": "^3.9.0",
     "gulp-ejs": "^3.0.1",
     "gulp-eslint": "^4.0.0",
+    "gulp-hash-changed": "git@github.com:marcobiedermann/gulp-hash-changed.git#hotfix/options",
     "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
     "gulp-imagemin": "^3.4.0",
     "gulp-jsonlint": "^1.2.0",
     "gulp-postcss": "^7.0.0",
