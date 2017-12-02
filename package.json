@@ -32,7 +32,7 @@
     "gulp-clean-css": "^3.9.0",
     "gulp-ejs": "^3.0.1",
     "gulp-eslint": "^4.0.0",
-    "gulp-hash-changed": "https://github.com/marcobiedermann/gulp-hash-changed.git#hotfix/options",
+    "gulp-hash-changed": "git+https://github.com/AngeloGulina/gulp-hash-changed.git",
     "gulp-htmlmin": "^3.0.0",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^3.4.0",
