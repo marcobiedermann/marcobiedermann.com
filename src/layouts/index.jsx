@@ -10,10 +10,12 @@ import Header from '../components/Header';
 const Layout = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Marco Biedermann | Frontend Webdeveloper & Graphic Designer"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        {
+          name: 'description',
+          content: 'My name is Marco and I am living in Germany. I love designing and developing rich web applications with user experience in mind.',
+        },
       ]}
     />
     <Header />
