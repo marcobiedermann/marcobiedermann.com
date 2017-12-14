@@ -5,7 +5,9 @@ const gulp = require('gulp');
 const gulpCleanCss = require('gulp-clean-css');
 const gulpEjs = require('gulp-ejs');
 const gulpEslint = require('gulp-eslint');
+const gulpHashChanged = require('gulp-hash-changed');
 const gulpHtmlmin = require('gulp-htmlmin');
+const gulpIf = require('gulp-if');
 const gulpImagemin = require('gulp-imagemin');
 const gulpJsonlint = require('gulp-jsonlint');
 const gulpPostcss = require('gulp-postcss');
@@ -100,9 +102,14 @@ gulp.task('html', ['css', 'js', 'svg:icons'], () => gulp.src(`${dirs.source}/tem
   }))
   .pipe(gulp.dest(`${dirs.dest}`)));
 
-gulp.task('images:content', () => gulp.src(`${dirs.source}/content/images/**/*.{gif,ico,jpg,jpeg,png}`)
-  .pipe(gulpImagemin())
-  .pipe(gulp.dest(`${dirs.dest}/content/images`)));
+gulp.task('images:content', () => {
+  gulp.src(`${dirs.source}/content/images/**/*.{gif,ico,jpg,jpeg,png}`)
+    .pipe(gulpIf(
+      gulpHashChanged(),
+      gulpImagemin(),
+    ))
+    .pipe(gulp.dest(`${dirs.dest}/content/images`));
+});
 
 gulp.task('images:webp', () => gulp.src(`${dirs.source}/content/images/**/*.{jpg,jpeg,gif,png}`)
   .pipe(gulpWebp())
