@@ -1,27 +1,31 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import Grid from '../components/Grid';
+
 const Page = () => (
   <div>
     <section className="site__section site__section--full site__section--dark">
 
-      <div className="grid" itemScope itemType="http://schema.org/Person">
+      <Grid>
 
-        <h1 className="animate animate--delay animate--slideInUp" itemProp="name" style={{ letterSpacing: '1rem' }}><span itemProp="givenName">Marco</span> <span itemProp="familyName">Bieder&shy;mann</span></h1>
-        <h3 className="animate animate--delay animate--slideInUp" itemProp="jobTitle">Frontend Web Developer & Graphic Designer</h3>
+        <div itemScope itemType="http://schema.org/Person">
+          <h1 className="animate animate--delay animate--slideInUp" itemProp="name" style={{ letterSpacing: '1rem' }}><span itemProp="givenName">Marco</span> <span itemProp="familyName">Bieder&shy;mann</span></h1>
+          <h3 className="animate animate--delay animate--slideInUp" itemProp="jobTitle">Frontend Web Developer & Graphic Designer</h3>
+        </div>
         <Link className="scroll-down animate animate--infinite animate--upDown js-scroll-to" to="#about" title="Scroll down to about section">
           <svg className="icon icon">
             <use xlinkHref="assets/images/icons.svg#arrow" />
           </svg>
         </Link>
 
-      </div>
+      </Grid>
 
     </section>
 
     <section className="site__section text--center" id="about">
 
-      <div className="grid">
+      <Grid>
 
         <h2 className="headline--lined">About</h2>
         <p className="center-block">My name is <span itemProp="name"><span itemProp="givenName">Marco</span></span> and I am living in <span itemProp="nationality">Germany</span>. I love designing and developing rich web applications with user experience in mind. I like solving problems, designing clean interfaces and constantly being in move to learn new things.</p>
@@ -64,13 +68,13 @@ const Page = () => (
 
         <p><a className="button button--dark" href="about/" itemProp="url" title="More about me">More about me</a></p>
 
-      </div>
+      </Grid>
 
     </section>
 
     <section className="site__section site__section--dark text--center" id="work">
 
-      <div className="grid">
+      <Grid>
 
         <h2 className="headline--lined">Work</h2>
         <p className="center-block">Take a look at some of my projects I’ve been working on.</p>
@@ -78,13 +82,13 @@ const Page = () => (
         PROJECTS
 
         <p><a className="button button--light" href="projects/" title="More of my project">see more Work</a></p>
-      </div>
+      </Grid>
 
     </section>
 
     <section className="site__section text--center" id="contact">
 
-      <div className="grid">
+      <Grid>
 
         <h2 className="headline--lined">Contact</h2>
         <p>Interested in working together? Get in touch with me.</p>
@@ -127,7 +131,7 @@ const Page = () => (
           </li>
         </ul>
 
-      </div>
+      </Grid>
 
     </section>
   </div>

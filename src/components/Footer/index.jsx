@@ -1,12 +1,14 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import Grid from '../Grid';
+
 import './style.css';
 
 const Footer = () => (
   <footer className="site__footer text--center" role="contentinfo" itemScope itemType="http://schema.org/WPFooter">
 
-    <div className="grid">
+    <Grid>
 
       <p className="site__footer__copyright">Handcrafted with <svg className="icon"><use xlinkHref="assets/images/icons.svg#heart" /></svg> in Germany</p>
 
@@ -21,7 +23,7 @@ const Footer = () => (
         </ul>
       </nav>
 
-    </div>
+    </Grid>
 
   </footer>
 );

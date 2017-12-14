@@ -12,16 +12,6 @@
   width: var(--gridWidth);
 }
 
-.grid::before,
-.grid::after {
-  content: ' ';
-  display: table;
-}
-
-.grid::after {
-  clear: both;
-}
-
 .grid__row {
   display: flex;
   flex-wrap: wrap;
