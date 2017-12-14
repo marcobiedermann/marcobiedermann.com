@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "gulp": "rm -rf docs; gulp build",
     "start": "gulp",
-    "build": "rm -rf docs; gulp build",
     "test": "gulp lint"
   },
   "repository": {
@@ -54,7 +56,13 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "gatsby": "^1.9.127",
+    "gatsby-link": "^1.6.30",
+    "gatsby-plugin-react-helmet": "^1.0.8",
     "lozad": "^1.0.9",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-helmet": "^5.2.0",
     "svg4everybody": "^2.1.9",
     "uuid": "^3.1.0"
   }
