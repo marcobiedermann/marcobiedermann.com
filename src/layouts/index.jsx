@@ -17,9 +17,13 @@ const Layout = ({ children }) => (
       ]}
     />
     <Header />
-    <div>
-      {children()}
+
+    <div className="site__container">
+      <main className="site__main" role="main" itemScope itemProp="mainContentOfPage">
+        {children()}
+      </main>
     </div>
+
     <Footer />
   </div>
 );
