@@ -15,10 +15,10 @@ const Footer = () => (
       <nav className="navigation navigation--footer navigation--inline">
         <ul>
           <li>
-            <Link to="imprint/" title="Imprint">Imprint</Link>
+            <Link to="imprint" title="Imprint">Imprint</Link>
           </li>
           <li>
-            <Link to="privacy-policy/" title="Privacy Policy">Privacy Policy</Link>
+            <Link to="privacy-policy" title="Privacy Policy">Privacy Policy</Link>
           </li>
         </ul>
       </nav>
