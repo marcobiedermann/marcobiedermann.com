@@ -102,32 +102,32 @@ const Page = () => (
             <link href="https://www.marcobiedermann.com" itemProp="url" />
           </li>
           <li>
-            <Link to="//twitter.com/m412c0b" itemProp="sameAs" target="_blank" rel="noopener" title="Marco Biedermann on twitter">
+            <a href="https://twitter.com/m412c0b" itemProp="sameAs" target="_blank" rel="noopener noreferrer" title="Marco Biedermann on twitter">
               <svg className="icon icon--2x">
                 <use xlinkHref="assets/images/icons.svg#twitter" />
               </svg>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="//dribbble.com/marcobiedermann" itemProp="sameAs" target="_blank" rel="noopener" title="Marco Biedermann on dribbble">
+            <a href="https://dribbble.com/marcobiedermann" itemProp="sameAs" target="_blank" rel="noopener noreferrer" title="Marco Biedermann on dribbble">
               <svg className="icon icon--2x">
                 <use xlinkHref="assets/images/icons.svg#dribbble" />
               </svg>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="//behance.net/marcobiedermann" itemProp="sameAs" target="_blank" rel="noopener" title="Marco Biedermann on behance">
+            <a href="https://behance.net/marcobiedermann" itemProp="sameAs" target="_blank" rel="noopener noreferrer" title="Marco Biedermann on behance">
               <svg className="icon icon--2x">
                 <use xlinkHref="assets/images/icons.svg#behance" />
               </svg>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="//github.com/marcobiedermann" itemProp="sameAs" target="_blank" rel="noopener" title="Marco Biedermann on github">
+            <a to="https://github.com/marcobiedermann" itemProp="sameAs" target="_blank" rel="noopener noreferrer" title="Marco Biedermann on github">
               <svg className="icon icon--2x">
                 <use xlinkHref="assets/images/icons.svg#github" />
               </svg>
-            </Link>
+            </a>
           </li>
         </ul>
 
