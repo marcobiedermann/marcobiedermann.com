@@ -4,7 +4,11 @@
   "description": "",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "lint:css": "stylelint ./**/*.css",
+    "lint:js": "eslint ./**/*.js",
+    "lint": "npm run lint:css && npm run lint:js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
