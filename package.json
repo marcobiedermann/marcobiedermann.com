@@ -31,6 +31,7 @@
     "classnames": "^2.2.5",
     "gatsby": "^1.9.127",
     "gatsby-link": "^1.6.30",
+    "gatsby-plugin-manifest": "^1.0.11",
     "gatsby-plugin-offline": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "lozad": "^1.0.9",
