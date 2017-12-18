@@ -7,6 +7,7 @@
     "develop": "gatsby develop",
     "lint:css": "stylelint ./**/*.css",
     "lint:js": "eslint ./**/*.js",
+    "lint:js:fix": "npm run lint:js -- --fix",
     "lint": "npm run lint:css && npm run lint:js",
     "start": "npm run build && gatsby serve",
     "test": "npm run lint"
