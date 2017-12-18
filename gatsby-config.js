@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.marcobiedermann.com',
     title: 'Marco Biedermann',
   },
   plugins: [
@@ -28,5 +29,6 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
   ],
 };
