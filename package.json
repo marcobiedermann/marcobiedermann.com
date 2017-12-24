@@ -48,6 +48,8 @@
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-remove-trailing-slashes": "^1.0.2",
     "gatsby-plugin-sitemap": "^1.2.9",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-remark": "^1.7.26",
     "lozad": "^1.0.9",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
