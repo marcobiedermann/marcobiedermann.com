@@ -12,8 +12,19 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               html
               id
               frontmatter {
+                agency
+                client
+                color
+                colors
+                desktop
+                fonts
+                homepage
+                mobile
                 path
+                role
+                tablet
                 title
+                website
               }
             }
           }
