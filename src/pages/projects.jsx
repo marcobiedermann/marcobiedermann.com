@@ -15,15 +15,13 @@ const Page = () => (
       ]}
     />
     <section className="site__section">
-
       <Grid>
-
         <h2>Work</h2>
-        <p className="center-block">Take a look at some of my projects I’ve been working on.</p>
+        <p className="center-block">
+          Take a look at some of my projects I’ve been working on.
+        </p>
         PROJECTS
-
       </Grid>
-
     </section>
   </div>
 );

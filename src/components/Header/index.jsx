@@ -5,15 +5,25 @@ import './style.css';
 
 const Header = () => (
   <header className="site__header" role="banner">
-
-    <button className="navigation__button navigation__button--open js-toggle" data-target="#navigation--main">
+    <button
+      className="navigation__button navigation__button--open js-toggle"
+      data-target="#navigation--main"
+    >
       <svg className="icon">
         <use xlinkHref="assets/images/icons.svg#menu" />
       </svg>
     </button>
 
-    <nav className="navigation navigation--main align" id="navigation--main" itemScope itemType="http://schema.org/SiteNavigationElement">
-      <button className="navigation__button navigation__button--close js-toggle" data-target="#navigation--main">
+    <nav
+      className="navigation navigation--main align"
+      id="navigation--main"
+      itemScope
+      itemType="http://schema.org/SiteNavigationElement"
+    >
+      <button
+        className="navigation__button navigation__button--close js-toggle"
+        data-target="#navigation--main"
+      >
         <svg className="icon">
           <use xlinkHref="assets/images/icons.svg#x" />
         </svg>
@@ -30,7 +40,11 @@ const Header = () => (
           </Link>
         </li>
         <li>
-          <Link to="projects" title="Projects I've been working on" itemProp="url">
+          <Link
+            to="projects"
+            title="Projects I've been working on"
+            itemProp="url"
+          >
             <span itemProp="name">Work</span>
           </Link>
         </li>
@@ -41,7 +55,6 @@ const Header = () => (
         </li>
       </ul>
     </nav>
-
   </header>
 );
 

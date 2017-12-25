@@ -10,11 +10,7 @@ const Embed = (props) => {
     [`embed--${props.ratio}`]: props.ratio,
   });
 
-  return (
-    <div className={className}>
-      {props.children}
-    </div>
-  );
+  return <div className={className}>{props.children}</div>;
 };
 
 Embed.propTypes = {

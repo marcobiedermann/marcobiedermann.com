@@ -16,10 +16,7 @@ class Image extends Component {
 
     return (
       <picture>
-        <source
-          data-srcset=""
-          type="image/webp"
-        />
+        <source data-srcset="" type="image/webp" />
         <img
           alt={props.alt}
           className="lozad"

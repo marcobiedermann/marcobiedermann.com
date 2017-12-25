@@ -14,14 +14,20 @@ const Layout = ({ children }) => (
       meta={[
         {
           name: 'description',
-          content: 'My name is Marco and I am living in Germany. I love designing and developing rich web applications with user experience in mind.',
+          content:
+            'My name is Marco and I am living in Germany. I love designing and developing rich web applications with user experience in mind.',
         },
       ]}
     />
     <Header />
 
     <div className="site__container">
-      <main className="site__main" role="main" itemScope itemProp="mainContentOfPage">
+      <main
+        className="site__main"
+        role="main"
+        itemScope
+        itemProp="mainContentOfPage"
+      >
         {children()}
       </main>
     </div>

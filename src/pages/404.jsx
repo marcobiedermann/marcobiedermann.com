@@ -16,14 +16,13 @@ const Page = () => (
       ]}
     />
     <section className="site__section">
-
       <Grid>
-
         <h1>Error 404 - Page not found</h1>
-        <p>The requested page could not be found.<br />Go back to <Link to="/">Home page</Link></p>
-
+        <p>
+          The requested page could not be found.<br />Go back to{' '}
+          <Link to="/">Home page</Link>
+        </p>
       </Grid>
-
     </section>
   </div>
 );
