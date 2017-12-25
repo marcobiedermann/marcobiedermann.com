@@ -5,13 +5,10 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 class Image extends Component {
-  constructor(props) {
-    super(props);
-    this.observer = lozad();
-  }
-
   componentDidMount() {
-    this.observer.observe();
+    const observer = lozad();
+
+    observer.observe();
   }
 
   render() {
