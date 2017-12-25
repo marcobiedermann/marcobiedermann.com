@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Image from '../components/Image';
 import Grid from '../components/Grid';
 
 const Template = ({ data }) => {
@@ -10,19 +11,9 @@ const Template = ({ data }) => {
       <section className="site__section">
         <Grid>
           <figure>
-            <picture>
-              <source
-                data-srcset={`content/images/projects${post.frontmatter.path}/${post.frontmatter.desktop}.webp`}
-                type="image/webp"
-              />
-              <img
-                alt=""
-                className="lozad"
-                data-src={`content/images/projects${post.frontmatter.path}/${post.frontmatter.desktop}.png`}
-                height=""
-                width=""
-              />
-            </picture>
+            <Image
+              src={post.frontmatter.desktop}
+            />
           </figure>
         </Grid>
       </section>
@@ -43,19 +34,9 @@ const Template = ({ data }) => {
           <h2>Colors</h2>
           <p>Bright and fresh colors</p>
           <figure>
-            <picture>
-              <source
-                data-srcset={`content/images/projects${post.frontmatter.path}/${post.frontmatter.colors}.webp`}
-                type="image/webp"
-              />
-              <img
-                alt=""
-                className="lozad"
-                data-src={`content/images/projects${post.frontmatter.path}/${post.frontmatter.colors}.png`}
-                height=""
-                width=""
-              />
-            </picture>
+            <Image
+              src={post.frontmatter.colors}
+            />
           </figure>
         </Grid>
       </section>
@@ -65,19 +46,9 @@ const Template = ({ data }) => {
           <h2>Typography</h2>
           <p>The fonts are meant to be displayed on smartphone and display, the main focus: legibility.</p>
           <figure>
-            <picture>
-              <source
-                data-srcset={`content/images/projects/typography/${post.frontmatter.fonts}.webp`}
-                type="image/webp"
-              />
-              <img
-                alt=""
-                className="lozad"
-                data-src={`content/images/projects/typography/${post.frontmatter.fonts}.png`}
-                height=""
-                width=""
-              />
-            </picture>
+            <Image
+              src={`content/images/projects/typography/${post.frontmatter.fonts}.png`}
+            />
           </figure>
         </Grid>
       </section>
@@ -86,19 +57,9 @@ const Template = ({ data }) => {
         <Grid>
           <h2>Homepage</h2>
           <figure>
-            <picture>
-              <source
-                data-srcset={`content/images/projects${post.frontmatter.path}/${post.frontmatter.homepage}.webp`}
-                type="image/webp"
-              />
-              <img
-                alt=""
-                className="lozad"
-                data-src={`content/images/projects${post.frontmatter.path}/${post.frontmatter.homepage}.png`}
-                height=""
-                width=""
-              />
-            </picture>
+            <Image
+              src={post.frontmatter.homepage}
+            />
           </figure>
         </Grid>
       </section>
@@ -106,15 +67,9 @@ const Template = ({ data }) => {
       <section className="site__section">
         <Grid>
           <figure>
-            <picture>
-              <img
-                alt=""
-                className="lozad"
-                data-src="content/images/projects/apple-devices.svg"
-                height=""
-                width="600"
-              />
-            </picture>
+            <Image
+              src="content/images/projects/apple-devices.svg"
+            />
           </figure>
         </Grid>
       </section>
@@ -123,19 +78,9 @@ const Template = ({ data }) => {
         <Grid>
           <h2>Tablet view</h2>
           <figure>
-            <picture>
-              <source
-                data-srcset={`content/images/projects${post.frontmatter.path}/${post.frontmatter.tablet}.webp`}
-                type="image/webp"
-              />
-              <img
-                alt=""
-                className="lozad"
-                data-src={`content/images/projects${post.frontmatter.path}/${post.frontmatter.tablet}.png`}
-                height=""
-                width=""
-              />
-            </picture>
+            <Image
+              src={post.frontmatter.tablet}
+            />
           </figure>
         </Grid>
       </section>
@@ -145,19 +90,9 @@ const Template = ({ data }) => {
           <h2>Mobile view</h2>
           <p>With a small display comes great responsabilities</p>
           <figure>
-            <picture>
-              <source
-                data-srcset={`content/images/projects${post.frontmatter.path}/${post.frontmatter.mobile}.webp`}
-                type="image/webp"
-              />
-              <img
-                alt=""
-                className="lozad"
-                data-src={`content/images/projects${post.frontmatter.path}/${post.frontmatter.mobile}.png`}
-                height=""
-                width=""
-              />
-            </picture>
+            <Image
+              src={post.frontmatter.mobile}
+            />
           </figure>
         </Grid>
       </section>
