@@ -1,16 +1,16 @@
 ---
 client: 'Theater Akademie Stuttgart e.V.'
 color: '#010000'
-colors: 'theater-akademie-stuttgart-colors'
-desktop: 'theater-akademie-stuttgart-imac'
+colors: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stuttgart-colors.png'
+desktop: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stuttgart-imac.png'
 fonts:
   - 'gentium-basic'
   - lato
-homepage: 'theater-akademie-stuttgart'
-mobile: 'theater-akademie-stuttgart-iphone'
+homepage: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stuttgart.png'
+mobile: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stuttgart-iphone.png'
 path: '/theater-akademie-stuttgart'
 role: 'Web Developing'
-tablet: 'theater-akademie-stuttgart-ipad'
+tablet: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stuttgart-ipad.png'
 title: 'TheaterAkademieStuttgart'
 website: 'http://www.theater-akademie-stuttgart.de'
 ---

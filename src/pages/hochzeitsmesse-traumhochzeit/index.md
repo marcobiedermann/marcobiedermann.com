@@ -1,12 +1,12 @@
 ---
 agency: 'FIXTREME GmbH'
 client: 'Hochzeitsmesse “Traumhochzeit”'
-colors: 'hochzeitsmesse-traumhochzeit-colors'
-desktop: 'hochzeitsmesse-traumhochzeit-imac'
+colors: 'content/images/projects/hochzeitsmesse-traumhochzeit/hochzeitsmesse-traumhochzeit-colors.png'
+desktop: 'content/images/projects/hochzeitsmesse-traumhochzeit/hochzeitsmesse-traumhochzeit-imac.png'
 fonts:
   - 'crimson-text'
   - 'lato'
-homepage: 'hochzeitsmesse-traumhochzeit'
+homepage: 'content/images/projects/hochzeitsmesse-traumhochzeit/hochzeitsmesse-traumhochzeit.png'
 path: '/hochzeitsmesse-traumhochzeit'
 role: 'Web Developing'
 title: 'Hochzeitsmesse “Traumhochzeit”'
