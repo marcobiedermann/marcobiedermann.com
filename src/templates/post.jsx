@@ -73,7 +73,10 @@ const Template = ({ data }) => {
         </Grid>
       </section>
 
-      <section className="site__section">
+      <section
+        className="site__section"
+        style={{ backgroundColor: post.frontmatter.color }}
+      >
         <Grid>
           <figure>
             <Image src="content/images/projects/apple-devices.svg" />
