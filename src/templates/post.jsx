@@ -1,7 +1,12 @@
 import React from 'react';
 
-import Image from '../components/Image';
 import Grid from '../components/Grid';
+import Icon from '../components/Icon';
+import Image from '../components/Image';
+
+import facebookIcon from '../assets/images/facebook.svg';
+import googlePlusIcon from '../assets/images/google-plus.svg';
+import twitterIcon from '../assets/images/twitter.svg';
 
 const Template = ({ data }) => {
   const { markdownRemark: post } = data;
@@ -125,9 +130,9 @@ const Template = ({ data }) => {
                 rel="noopener noreferrer"
                 title={`Share ${post.frontmatter.title} project on Facebook`}
               >
-                <svg className="icon icon--2x">
-                  <use xlinkHref="assets/images/icons.svg#facebook" />
-                </svg>
+                <Icon size="2x">
+                  {facebookIcon}
+                </Icon>
               </a>
             </li>
             <li>
@@ -141,9 +146,9 @@ const Template = ({ data }) => {
                 rel="noopener noreferrer"
                 title={`Share ${post.frontmatter.title} project on Twitter`}
               >
-                <svg className="icon icon--2x">
-                  <use xlinkHref="assets/images/icons.svg#twitter" />
-                </svg>
+                <Icon size="2x">
+                  {twitterIcon}
+                </Icon>
               </a>
             </li>
             <li>
@@ -155,9 +160,9 @@ const Template = ({ data }) => {
                 rel="noopener noreferrer"
                 title={`Share ${post.frontmatter.title} project on Google Plus`}
               >
-                <svg className="icon icon--2x">
-                  <use xlinkHref="assets/images/icons.svg#google-plus" />
-                </svg>
+                <Icon size="2x">
+                  {googlePlusIcon}
+                </Icon>
               </a>
             </li>
           </ul>

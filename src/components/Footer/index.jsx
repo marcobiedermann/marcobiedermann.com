@@ -2,6 +2,9 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import Grid from '../Grid';
+import Icon from '../Icon';
+
+import heartIcon from '../../assets/images/heart.svg';
 
 import './style.css';
 
@@ -15,9 +18,9 @@ const Footer = () => (
     <Grid>
       <p className="site__footer__copyright">
         Handcrafted with{' '}
-        <svg className="icon">
-          <use xlinkHref="assets/images/icons.svg#heart" />
-        </svg>{' '}
+        <Icon>
+          {heartIcon}
+        </Icon>{' '}
         in Germany
       </p>
 

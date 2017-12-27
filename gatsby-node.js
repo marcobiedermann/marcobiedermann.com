@@ -1,4 +1,5 @@
 const path = require('path');
+// const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
@@ -44,4 +45,44 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       });
     }));
   });
+};
+
+exports.modifyWebpackConfig = ({ config, stage }, options) => {
+  config.loader('url-loader', {
+    test: /\.(jpg|jpeg|png|gif|mp4|webm|wav|mp3|m4a|aac|oga)(\?.*)?$/,
+    loader: 'url',
+    query: {
+      limit: 10000,
+      name: 'static/[name].[hash:8].[ext]',
+    },
+  });
+
+  switch (stage) {
+    case 'develop': {
+      config.loader('svg-sprite', {
+        test: /\.svg$/,
+        loader: 'svg-sprite-loader',
+      });
+
+      return config;
+    }
+
+    case 'build': {
+      config.loader('svg-sprite', {
+        loader: 'svg-sprite-loader',
+        test: /\.svg$/,
+        // query: {
+        //   extract: true,
+        // },
+      });
+
+      // config.plugin('svg-sprite', () => new SpriteLoaderPlugin());
+
+      return config;
+    }
+
+    default: {
+      return config;
+    }
+  }
 };

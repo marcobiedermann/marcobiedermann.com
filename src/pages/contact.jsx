@@ -2,6 +2,12 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
+import Icon from '../components/Icon';
+
+import behanceIcon from '../assets/images/behance.svg';
+import dribbbleIcon from '../assets/images/dribbble.svg';
+import githubIcon from '../assets/images/github.svg';
+import twitterIcon from '../assets/images/twitter.svg';
 
 const Page = () => (
   <div>
@@ -28,9 +34,9 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#twitter" />
-              </svg>
+              <Icon size="2x">
+                {twitterIcon}
+              </Icon>
             </a>
           </li>
           <li>
@@ -40,9 +46,9 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#dribbble" />
-              </svg>
+              <Icon size="2x">
+                {dribbbleIcon}
+              </Icon>
             </a>
           </li>
           <li>
@@ -52,9 +58,9 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#behance" />
-              </svg>
+              <Icon size="2x">
+                {behanceIcon}
+              </Icon>
             </a>
           </li>
           <li>
@@ -64,9 +70,9 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#github" />
-              </svg>
+              <Icon size="2x">
+                {githubIcon}
+              </Icon>
             </a>
           </li>
         </ul>

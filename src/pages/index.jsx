@@ -2,6 +2,16 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import Grid from '../components/Grid';
+import Icon from '../components/Icon';
+
+import arrowIcon from '../assets/images/arrow.svg';
+import behanceIcon from '../assets/images/behance.svg';
+import developmentIcon from '../assets/images/development.svg';
+import dribbbleIcon from '../assets/images/dribbble.svg';
+import githubIcon from '../assets/images/github.svg';
+import graphicDesignIcon from '../assets/images/graphic-design.svg';
+import optimizationIcon from '../assets/images/optimization.svg';
+import twitterIcon from '../assets/images/twitter.svg';
 
 const Page = () => (
   <div>
@@ -28,9 +38,9 @@ const Page = () => (
           to="#about"
           title="Scroll down to about section"
         >
-          <svg className="icon icon">
-            <use xlinkHref="assets/images/icons.svg#arrow" />
-          </svg>
+          <Icon>
+            {arrowIcon}
+          </Icon>
         </Link>
       </Grid>
     </section>
@@ -52,9 +62,9 @@ const Page = () => (
         <div className="grid__row">
           <div className="grid__col grid__col--4">
             <figure>
-              <svg className="icon icon--6x">
-                <use xlinkHref="assets/images/icons.svg#graphic-design" />
-              </svg>
+              <Icon size="6x">
+                {graphicDesignIcon}
+              </Icon>
             </figure>
 
             <h3>Graphic Design</h3>
@@ -68,9 +78,9 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <svg className="icon icon--6x">
-                <use xlinkHref="assets/images/icons.svg#development" />
-              </svg>
+              <Icon size="6x">
+                {developmentIcon}
+              </Icon>
             </figure>
 
             <h3>Web Development</h3>
@@ -83,9 +93,9 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <svg className="icon icon--6x">
-                <use xlinkHref="assets/images/icons.svg#optimization" />
-              </svg>
+              <Icon size="6x">
+                {optimizationIcon}
+              </Icon>
             </figure>
 
             <h3>Optimization</h3>
@@ -155,9 +165,9 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on twitter"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#twitter" />
-              </svg>
+              <Icon size="2x">
+                {twitterIcon}
+              </Icon>
             </a>
           </li>
           <li>
@@ -168,9 +178,9 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on dribbble"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#dribbble" />
-              </svg>
+              <Icon size="2x">
+                {dribbbleIcon}
+              </Icon>
             </a>
           </li>
           <li>
@@ -181,9 +191,9 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on behance"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#behance" />
-              </svg>
+              <Icon size="2x">
+                {behanceIcon}
+              </Icon>
             </a>
           </li>
           <li>
@@ -194,9 +204,9 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on github"
             >
-              <svg className="icon icon--2x">
-                <use xlinkHref="assets/images/icons.svg#github" />
-              </svg>
+              <Icon size="2x">
+                {githubIcon}
+              </Icon>
             </a>
           </li>
         </ul>

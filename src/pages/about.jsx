@@ -2,6 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
+import Icon from '../components/Icon';
+
+import developmentIcon from '../assets/images/development.svg';
+import graphicDesignIcon from '../assets/images/graphic-design.svg';
+import optimizationIcon from '../assets/images/optimization.svg';
 
 const Page = () => (
   <div>
@@ -32,9 +37,9 @@ const Page = () => (
         <div className="grid__row">
           <div className="grid__col grid__col--4">
             <figure>
-              <svg className="icon icon--6x">
-                <use xlinkHref="assets/images/icons.svg#graphic-design" />
-              </svg>
+              <Icon size="6x">
+                {graphicDesignIcon}
+              </Icon>
             </figure>
 
             <h3>Graphic Design</h3>
@@ -48,9 +53,9 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <svg className="icon icon--6x">
-                <use xlinkHref="assets/images/icons.svg#development" />
-              </svg>
+              <Icon size="6x">
+                {developmentIcon}
+              </Icon>
             </figure>
 
             <h3>Web Development</h3>
@@ -63,9 +68,9 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <svg className="icon icon--6x">
-                <use xlinkHref="assets/images/icons.svg#optimization" />
-              </svg>
+              <Icon size="6x">
+                {optimizationIcon}
+              </Icon>
             </figure>
 
             <h3>Optimization</h3>
