@@ -30,26 +30,42 @@ const Header = () => (
       </button>
       <ul>
         <li>
-          <Link to="/" title="Marco Biedermann Homepage" itemProp="url">
+          <Link
+            activeClassName="is-active"
+            itemProp="url"
+            title="Marco Biedermann Homepage"
+            to="/"
+          >
             <span itemProp="name">Home</span>
           </Link>
         </li>
         <li>
-          <Link to="about" title="About Marco Biedermann" itemProp="url">
+          <Link
+            activeClassName="is-active"
+            itemProp="url"
+            title="About Marco Biedermann"
+            to="about"
+          >
             <span itemProp="name">About</span>
           </Link>
         </li>
         <li>
           <Link
-            to="projects"
-            title="Projects I've been working on"
+            activeClassName="is-active"
             itemProp="url"
+            title="Projects I've been working on"
+            to="projects"
           >
             <span itemProp="name">Work</span>
           </Link>
         </li>
         <li>
-          <Link to="contact" title="Get in Contact with me" itemProp="url">
+          <Link
+            activeClassName="is-active"
+            itemProp="url"
+            title="Get in Contact with me"
+            to="contact"
+          >
             <span itemProp="name">Contact</span>
           </Link>
         </li>
