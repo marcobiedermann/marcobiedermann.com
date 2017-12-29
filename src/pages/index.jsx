@@ -112,7 +112,7 @@ const Page = () => (
         <p>
           <a
             className="button button--dark"
-            href="about/"
+            href="about"
             itemProp="url"
             title="More about me"
           >
@@ -132,7 +132,7 @@ const Page = () => (
         <p>
           <a
             className="button button--light"
-            href="projects/"
+            href="projects"
             title="More of my project"
           >
             see more Work
