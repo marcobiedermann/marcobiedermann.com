@@ -6,6 +6,7 @@ import './style.css';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Navigation from '../components/Navigation';
 
 const Layout = ({ children }) => (
   <div>
@@ -19,7 +20,10 @@ const Layout = ({ children }) => (
         },
       ]}
     />
-    <Header />
+    <Header>
+      <Navigation />
+    </Header>
+
 
     <div className="site__container">
       <main
