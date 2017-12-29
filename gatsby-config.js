@@ -10,8 +10,8 @@ module.exports = {
         name: 'marcobiedermann',
         short_name: 'marcobiedermann',
         start_url: '/',
-        background_color: '#fff',
-        theme_color: '#000',
+        background_color: '#f8f9fb',
+        theme_color: '#0a0a0a',
         display: 'minimal-ui',
         icons: [
           {
