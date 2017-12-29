@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 
 import Grid from '../components/Grid';
 import Icon from '../components/Icon';
+import Section from '../components/Section';
 
 import arrowIcon from '../assets/images/arrow.svg';
 import behanceIcon from '../assets/images/behance.svg';
@@ -15,7 +16,7 @@ import twitterIcon from '../assets/images/twitter.svg';
 
 const Page = () => (
   <div>
-    <section className="site__section site__section--full site__section--dark">
+    <Section modifier="full">
       <Grid>
         <div itemScope itemType="http://schema.org/Person">
           <h1
@@ -43,9 +44,9 @@ const Page = () => (
           </Icon>
         </Link>
       </Grid>
-    </section>
+    </Section>
 
-    <section className="site__section text--center" id="about">
+    <Section id="about">
       <Grid>
         <h2 className="headline--lined">About</h2>
         <p className="center-block">
@@ -119,12 +120,9 @@ const Page = () => (
           </a>
         </p>
       </Grid>
-    </section>
+    </Section>
 
-    <section
-      className="site__section site__section--dark text--center"
-      id="work"
-    >
+    <Section modifier="dark">
       <Grid>
         <h2 className="headline--lined">Work</h2>
         <p className="center-block">
@@ -141,9 +139,9 @@ const Page = () => (
           </a>
         </p>
       </Grid>
-    </section>
+    </Section>
 
-    <section className="site__section text--center" id="contact">
+    <Section>
       <Grid>
         <h2 className="headline--lined">Contact</h2>
         <p>Interested in working together? Get in touch with me.</p>
@@ -211,7 +209,7 @@ const Page = () => (
           </li>
         </ul>
       </Grid>
-    </section>
+    </Section>
   </div>
 );
 

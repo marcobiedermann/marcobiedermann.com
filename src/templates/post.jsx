@@ -3,6 +3,7 @@ import React from 'react';
 import Grid from '../components/Grid';
 import Icon from '../components/Icon';
 import Image from '../components/Image';
+import Section from '../components/Section';
 
 import facebookIcon from '../assets/images/facebook.svg';
 import googlePlusIcon from '../assets/images/google-plus.svg';
@@ -17,15 +18,15 @@ const Template = ({ data }) => {
       itemScope
       itemType="http://schema.org/CreativeWork"
     >
-      <section className="site__section">
+      <Section>
         <Grid>
           <figure>
             <Image src={post.frontmatter.desktop} />
           </figure>
         </Grid>
-      </section>
+      </Section>
 
-      <section className="site__section">
+      <Section>
         <Grid>
           <h1 itemProp="name">{post.frontmatter.title}</h1>
           <ul>
@@ -40,9 +41,9 @@ const Template = ({ data }) => {
             </li>
           </ul>
         </Grid>
-      </section>
+      </Section>
 
-      <section className="site__section">
+      <Section>
         <Grid>
           <h2>Colors</h2>
           <p>Bright and fresh colors</p>
@@ -50,9 +51,9 @@ const Template = ({ data }) => {
             <Image src={post.frontmatter.colors} />
           </figure>
         </Grid>
-      </section>
+      </Section>
 
-      <section className="site__section">
+      <Section>
         <Grid>
           <h2>Typography</h2>
           <p>
@@ -67,19 +68,18 @@ const Template = ({ data }) => {
             />
           </figure>
         </Grid>
-      </section>
+      </Section>
 
-      <section className="site__section">
+      <Section>
         <Grid>
           <h2>Homepage</h2>
           <figure>
             <Image src={post.frontmatter.homepage} />
           </figure>
         </Grid>
-      </section>
+      </Section>
 
-      <section
-        className="site__section"
+      <Section
         style={{ backgroundColor: post.frontmatter.color }}
       >
         <Grid>
@@ -87,18 +87,18 @@ const Template = ({ data }) => {
             <Image src="content/images/projects/apple-devices.svg" />
           </figure>
         </Grid>
-      </section>
+      </Section>
 
-      <section className="site__section">
+      <Section>
         <Grid>
           <h2>Tablet view</h2>
           <figure>
             <Image src={post.frontmatter.tablet} />
           </figure>
         </Grid>
-      </section>
+      </Section>
 
-      <section className="site__section">
+      <Section>
         <Grid>
           <h2>Mobile view</h2>
           <p>With a small display comes great responsabilities</p>
@@ -106,9 +106,9 @@ const Template = ({ data }) => {
             <Image src={post.frontmatter.mobile} />
           </figure>
         </Grid>
-      </section>
+      </Section>
 
-      <section className="site__section">
+      <Section>
         <Grid>
           <p>
             <a
@@ -167,7 +167,7 @@ const Template = ({ data }) => {
             </li>
           </ul>
         </Grid>
-      </section>
+      </Section>
     </article>
   );
 };

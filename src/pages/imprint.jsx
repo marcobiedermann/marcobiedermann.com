@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
+import Section from '../components/Section';
 
 const Page = () => (
   <div>
@@ -14,7 +15,7 @@ const Page = () => (
         },
       ]}
     />
-    <section className="site__section">
+    <Section>
       <Grid>
         <h1>Imprint</h1>
         <h2>Angaben gemäß § 5 TMG:</h2>
@@ -177,7 +178,7 @@ const Page = () => (
           </div>
         </div>
       </Grid>
-    </section>
+    </Section>
   </div>
 );
 

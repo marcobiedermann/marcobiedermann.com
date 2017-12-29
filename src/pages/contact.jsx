@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
 import Icon from '../components/Icon';
+import Section from '../components/Section';
 
 import behanceIcon from '../assets/images/behance.svg';
 import dribbbleIcon from '../assets/images/dribbble.svg';
@@ -20,7 +21,7 @@ const Page = () => (
         },
       ]}
     />
-    <section className="site__section">
+    <Section>
       <Grid>
         <h1>Contact</h1>
         <p>Interested in working together? Get in touch with me.</p>
@@ -77,7 +78,7 @@ const Page = () => (
           </li>
         </ul>
       </Grid>
-    </section>
+    </Section>
   </div>
 );
 

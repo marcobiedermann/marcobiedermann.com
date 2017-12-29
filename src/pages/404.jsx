@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
+import Section from '../components/Section';
 
 const Page = () => (
   <div>
@@ -15,7 +16,7 @@ const Page = () => (
         },
       ]}
     />
-    <section className="site__section">
+    <Section>
       <Grid>
         <h1>Error 404 - Page not found</h1>
         <p>
@@ -23,7 +24,7 @@ const Page = () => (
           <Link to="/">Home page</Link>
         </p>
       </Grid>
-    </section>
+    </Section>
   </div>
 );
 

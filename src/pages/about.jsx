@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
 import Icon from '../components/Icon';
+import Section from '../components/Section';
 
 import developmentIcon from '../assets/images/development.svg';
 import graphicDesignIcon from '../assets/images/graphic-design.svg';
@@ -20,7 +21,7 @@ const Page = () => (
         },
       ]}
     />
-    <section className="site__section">
+    <Section>
       <Grid>
         <h1>Hello,</h1>
         <p>
@@ -265,7 +266,7 @@ const Page = () => (
           </div>
         </div>
       </Grid>
-    </section>
+    </Section>
   </div>
 );
 

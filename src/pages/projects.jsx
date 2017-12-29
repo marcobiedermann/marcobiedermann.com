@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
+import Section from '../components/Section';
 
 const Page = () => (
   <div>
@@ -14,7 +15,7 @@ const Page = () => (
         },
       ]}
     />
-    <section className="site__section">
+    <Section>
       <Grid>
         <h2>Work</h2>
         <p className="center-block">
@@ -22,7 +23,7 @@ const Page = () => (
         </p>
         PROJECTS
       </Grid>
-    </section>
+    </Section>
   </div>
 );
 

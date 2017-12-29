@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Grid from '../components/Grid';
+import Section from '../components/Section';
 
 const Page = () => (
   <div>
@@ -14,7 +15,7 @@ const Page = () => (
         },
       ]}
     />
-    <section className="site__section">
+    <Section>
       <Grid>
         <h1>Privacy Policy</h1>
         <h2>Google Analytics</h2>
@@ -54,7 +55,7 @@ const Page = () => (
           </a>.
         </p>
       </Grid>
-    </section>
+    </Section>
   </div>
 );
 
