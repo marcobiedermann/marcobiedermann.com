@@ -38,9 +38,7 @@ const Page = () => (
         <div className="grid__row">
           <div className="grid__col grid__col--4">
             <figure>
-              <Icon size="6x">
-                {graphicDesignIcon}
-              </Icon>
+              <Icon size="6x">{graphicDesignIcon}</Icon>
             </figure>
 
             <h3>Graphic Design</h3>
@@ -54,9 +52,7 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <Icon size="6x">
-                {developmentIcon}
-              </Icon>
+              <Icon size="6x">{developmentIcon}</Icon>
             </figure>
 
             <h3>Web Development</h3>
@@ -69,9 +65,7 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <Icon size="6x">
-                {optimizationIcon}
-              </Icon>
+              <Icon size="6x">{optimizationIcon}</Icon>
             </figure>
 
             <h3>Optimization</h3>
@@ -208,7 +202,9 @@ const Page = () => (
             <h3>JavaScript</h3>
             <p>
               Syntax: <abbr title="ECMAScript 5">ES5</abbr>,{' '}
-              <abbr title="ECMAScript 6">ES6</abbr> (<abbr title="ECMAScript 2015">ES2015</abbr>), Node.js:{' '}
+              <abbr title="ECMAScript 6">ES6</abbr> (
+              <abbr title="ECMAScript 2015">ES2015</abbr>
+              ), Node.js:{' '}
               <abbr title="Representational state transfer">REST</abbr>ful{' '}
               <abbr title="Application programming interface">API</abbr>s,
               Express, Frameworks: jQuery,{' '}

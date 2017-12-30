@@ -39,9 +39,7 @@ const Page = () => (
           to="#about"
           title="Scroll down to about section"
         >
-          <Icon>
-            {arrowIcon}
-          </Icon>
+          <Icon>{arrowIcon}</Icon>
         </Link>
       </Grid>
     </Section>
@@ -63,9 +61,7 @@ const Page = () => (
         <div className="grid__row">
           <div className="grid__col grid__col--4">
             <figure>
-              <Icon size="6x">
-                {graphicDesignIcon}
-              </Icon>
+              <Icon size="6x">{graphicDesignIcon}</Icon>
             </figure>
 
             <h3>Graphic Design</h3>
@@ -79,9 +75,7 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <Icon size="6x">
-                {developmentIcon}
-              </Icon>
+              <Icon size="6x">{developmentIcon}</Icon>
             </figure>
 
             <h3>Web Development</h3>
@@ -94,9 +88,7 @@ const Page = () => (
 
           <div className="grid__col grid__col--4">
             <figure>
-              <Icon size="6x">
-                {optimizationIcon}
-              </Icon>
+              <Icon size="6x">{optimizationIcon}</Icon>
             </figure>
 
             <h3>Optimization</h3>
@@ -163,9 +155,7 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on twitter"
             >
-              <Icon size="2x">
-                {twitterIcon}
-              </Icon>
+              <Icon size="2x">{twitterIcon}</Icon>
             </a>
           </li>
           <li>
@@ -176,9 +166,7 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on dribbble"
             >
-              <Icon size="2x">
-                {dribbbleIcon}
-              </Icon>
+              <Icon size="2x">{dribbbleIcon}</Icon>
             </a>
           </li>
           <li>
@@ -189,9 +177,7 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on behance"
             >
-              <Icon size="2x">
-                {behanceIcon}
-              </Icon>
+              <Icon size="2x">{behanceIcon}</Icon>
             </a>
           </li>
           <li>
@@ -202,9 +188,7 @@ const Page = () => (
               rel="noopener noreferrer"
               title="Marco Biedermann on github"
             >
-              <Icon size="2x">
-                {githubIcon}
-              </Icon>
+              <Icon size="2x">{githubIcon}</Icon>
             </a>
           </li>
         </ul>

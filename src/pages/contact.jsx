@@ -35,9 +35,7 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <Icon size="2x">
-                {twitterIcon}
-              </Icon>
+              <Icon size="2x">{twitterIcon}</Icon>
             </a>
           </li>
           <li>
@@ -47,9 +45,7 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <Icon size="2x">
-                {dribbbleIcon}
-              </Icon>
+              <Icon size="2x">{dribbbleIcon}</Icon>
             </a>
           </li>
           <li>
@@ -59,9 +55,7 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <Icon size="2x">
-                {behanceIcon}
-              </Icon>
+              <Icon size="2x">{behanceIcon}</Icon>
             </a>
           </li>
           <li>
@@ -71,9 +65,7 @@ const Page = () => (
               rel="noopener noreferrer"
               itemProp="sameAs"
             >
-              <Icon size="2x">
-                {githubIcon}
-              </Icon>
+              <Icon size="2x">{githubIcon}</Icon>
             </a>
           </li>
         </ul>

@@ -24,7 +24,6 @@ const Layout = ({ children }) => (
       <Navigation />
     </Header>
 
-
     <div className="site__container">
       <main
         className="site__main"

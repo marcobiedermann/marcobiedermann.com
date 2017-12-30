@@ -79,9 +79,7 @@ const Template = ({ data }) => {
         </Grid>
       </Section>
 
-      <Section
-        style={{ backgroundColor: post.frontmatter.color }}
-      >
+      <Section style={{ backgroundColor: post.frontmatter.color }}>
         <Grid>
           <figure>
             <Image src="content/images/projects/apple-devices.svg" />
@@ -130,9 +128,7 @@ const Template = ({ data }) => {
                 rel="noopener noreferrer"
                 title={`Share ${post.frontmatter.title} project on Facebook`}
               >
-                <Icon size="2x">
-                  {facebookIcon}
-                </Icon>
+                <Icon size="2x">{facebookIcon}</Icon>
               </a>
             </li>
             <li>
@@ -146,9 +142,7 @@ const Template = ({ data }) => {
                 rel="noopener noreferrer"
                 title={`Share ${post.frontmatter.title} project on Twitter`}
               >
-                <Icon size="2x">
-                  {twitterIcon}
-                </Icon>
+                <Icon size="2x">{twitterIcon}</Icon>
               </a>
             </li>
             <li>
@@ -160,9 +154,7 @@ const Template = ({ data }) => {
                 rel="noopener noreferrer"
                 title={`Share ${post.frontmatter.title} project on Google Plus`}
               >
-                <Icon size="2x">
-                  {googlePlusIcon}
-                </Icon>
+                <Icon size="2x">{googlePlusIcon}</Icon>
               </a>
             </li>
           </ul>
