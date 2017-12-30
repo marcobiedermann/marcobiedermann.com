@@ -7,24 +7,6 @@
   --buttonHoverColor: color(var(--buttonColor) blackness(10%));
 }
 
-button {
-  background: transparent;
-  border: 0;
-  color: inherit;
-  cursor: pointer;
-  font: inherit;
-  margin: 0;
-  outline: 0;
-  overflow: visible;
-  padding: 0;
-  text-transform: none;
-}
-
-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
 .button {
   background-color: var(--buttonBgColor);
   color: var(--buttonColor);
