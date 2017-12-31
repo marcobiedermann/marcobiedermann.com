@@ -3,3 +3,14 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+.lozad {
+  opacity: 0;
+  transform: translateY(15%);
+  transition: opacity 1s, transform 1s;
+}
+
+.lozad[data-loaded='true'] {
+  opacity: 1;
+  transform: translateY(0);
+}
