@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
 
 import Icon from '../Icon';
 
@@ -8,7 +9,7 @@ import xIcon from '../../assets/images/x.svg';
 
 import './style.css';
 
-const Navigation = () => (
+const Navigation = props => (
   <div>
     <button
       className="navigation__button navigation__button--open js-toggle"
@@ -30,49 +31,30 @@ const Navigation = () => (
         <Icon>{xIcon}</Icon>
       </button>
       <ul>
-        <li>
-          <Link
-            activeClassName="is-active"
-            itemProp="url"
-            title="Marco Biedermann Homepage"
-            to="/"
-          >
-            <span itemProp="name">Home</span>
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClassName="is-active"
-            itemProp="url"
-            title="About Marco Biedermann"
-            to="about"
-          >
-            <span itemProp="name">About</span>
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClassName="is-active"
-            itemProp="url"
-            title="Projects I've been working on"
-            to="projects"
-          >
-            <span itemProp="name">Work</span>
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClassName="is-active"
-            itemProp="url"
-            title="Get in Contact with me"
-            to="contact"
-          >
-            <span itemProp="name">Contact</span>
-          </Link>
-        </li>
+        {props.pages.map(page => (
+          <li key={page.id}>
+            <Link
+              activeClassName="is-active"
+              itemProp="url"
+              title={page.metaTitle}
+              to={page.url}
+            >
+              <span itemProp="name">{page.title}</span>
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   </div>
 );
+
+Navigation.propTypes = {
+  pages: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    metaTitle: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+  })).isRequired,
+};
 
 export default Navigation;

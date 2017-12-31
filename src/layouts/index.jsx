@@ -9,6 +9,33 @@ import Header from '../components/Header';
 import Main from '../components/Main';
 import Navigation from '../components/Navigation';
 
+const pages = [
+  {
+    id: 1,
+    metaTitle: 'Marco Biedermann Homepage',
+    title: 'Home',
+    url: '/',
+  },
+  {
+    id: 2,
+    metaTitle: 'About Marco Biedermann',
+    title: 'About',
+    url: 'about',
+  },
+  {
+    id: 3,
+    metaTitle: 'Projects I’ve been working on',
+    title: 'Projects',
+    url: 'projects',
+  },
+  {
+    id: 4,
+    metaTitle: 'Get in Contact with me',
+    title: 'Contact',
+    url: 'contact',
+  },
+];
+
 const Layout = ({ children }) => (
   <div>
     <Helmet
@@ -22,7 +49,7 @@ const Layout = ({ children }) => (
       ]}
     />
     <Header>
-      <Navigation />
+      <Navigation pages={pages} />
     </Header>
 
     <Main>{children()}</Main>
