@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import Icon from '../Icon';
 
 import menuIcon from '../../assets/images/menu.svg';
+import xIcon from '../../assets/images/x.svg';
 
 import './style.css';
 
@@ -26,9 +27,7 @@ const Navigation = () => (
         className="navigation__button navigation__button--close js-toggle"
         data-target="#navigation--main"
       >
-        <svg className="icon">
-          <use xlinkHref="assets/images/icons.svg#x" />
-        </svg>
+        <Icon>{xIcon}</Icon>
       </button>
       <ul>
         <li>
