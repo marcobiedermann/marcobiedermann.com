@@ -6,6 +6,7 @@ import './style.css';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Main from '../components/Main';
 import Navigation from '../components/Navigation';
 
 const Layout = ({ children }) => (
@@ -24,16 +25,7 @@ const Layout = ({ children }) => (
       <Navigation />
     </Header>
 
-    <div className="site__container">
-      <main
-        className="site__main"
-        role="main"
-        itemScope
-        itemProp="mainContentOfPage"
-      >
-        {children()}
-      </main>
-    </div>
+    <Main>{children()}</Main>
 
     <Footer />
   </div>
