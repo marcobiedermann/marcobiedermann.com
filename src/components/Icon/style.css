@@ -4,7 +4,7 @@
 
 .icon {
   display: inline-block;
-  fill: var(--baseColor);
+  fill: currentColor;
   height: var(--iconSize);
   vertical-align: middle;
   width: var(--iconSize);

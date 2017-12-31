@@ -1,0 +1,15 @@
+:root {
+  --paragraphMarginBottom: 3rem;
+  --paragraphMarginTop: 0;
+  --paragraphMaxWidth: 40rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: var(--paragraphMarginBottom);
+  margin-top: var(--paragraphMarginTop);
+  max-width: var(--paragraphMaxWidth);
+}

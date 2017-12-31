@@ -1,0 +1,12 @@
+:root {
+  --listMarginBottom: 1.5rem;
+  --listMarginTop: 0;
+  --listPadding: 1.25rem;
+  --listListMarginTop: 0.5rem;
+}
+
+ul {
+  margin-bottom: var(--listMarginBottom);
+  margin-top: var(--listMarginTop);
+  padding-left: var(--listPadding);
+}
