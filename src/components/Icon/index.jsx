@@ -18,7 +18,9 @@ const Icon = (props) => {
 };
 
 Icon.propTypes = {
-  children: PropTypes.shape.isRequired,
+  children: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+  }).isRequired,
   size: PropTypes.string,
 };
 
