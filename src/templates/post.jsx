@@ -30,15 +30,21 @@ const Template = ({ data }) => {
         <Grid>
           <h1 itemProp="name">{post.frontmatter.title}</h1>
           <ul>
-            <li>
-              <strong>Client:</strong> {post.frontmatter.client}
-            </li>
-            <li>
-              <strong>Agency:</strong> {post.frontmatter.agency}
-            </li>
-            <li>
-              <strong>Role:</strong> {post.frontmatter.role}
-            </li>
+            {post.frontmatter.client && (
+              <li>
+                <strong>Client:</strong> {post.frontmatter.client}
+              </li>
+            )}
+            {post.frontmatter.agency && (
+              <li>
+                <strong>Agency:</strong> {post.frontmatter.agency}
+              </li>
+            )}
+            {post.frontmatter.role && (
+              <li>
+                <strong>Role:</strong> {post.frontmatter.role}
+              </li>
+            )}
           </ul>
         </Grid>
       </Section>
@@ -79,32 +85,39 @@ const Template = ({ data }) => {
         </Grid>
       </Section>
 
-      <Section style={{ backgroundColor: post.frontmatter.color }}>
-        <Grid>
-          <figure>
-            <Image src="content/images/projects/apple-devices.svg" />
-          </figure>
-        </Grid>
-      </Section>
+      {post.frontmatter.tablet &&
+        post.frontmatter.mobile && (
+          <Section style={{ backgroundColor: post.frontmatter.color }}>
+            <Grid>
+              <figure>
+                <Image src="content/images/projects/apple-devices.svg" />
+              </figure>
+            </Grid>
+          </Section>
+        )}
 
-      <Section>
-        <Grid>
-          <h2>Tablet view</h2>
-          <figure>
-            <Image src={post.frontmatter.tablet} />
-          </figure>
-        </Grid>
-      </Section>
+      {post.frontmatter.tablet && (
+        <Section>
+          <Grid>
+            <h2>Tablet view</h2>
+            <figure>
+              <Image src={post.frontmatter.tablet} />
+            </figure>
+          </Grid>
+        </Section>
+      )}
 
-      <Section>
-        <Grid>
-          <h2>Mobile view</h2>
-          <p>With a small display comes great responsabilities</p>
-          <figure>
-            <Image src={post.frontmatter.mobile} />
-          </figure>
-        </Grid>
-      </Section>
+      {post.frontmatter.mobile && (
+        <Section>
+          <Grid>
+            <h2>Mobile view</h2>
+            <p>With a small display comes great responsabilities</p>
+            <figure>
+              <Image src={post.frontmatter.mobile} />
+            </figure>
+          </Grid>
+        </Section>
+      )}
 
       <Section>
         <Grid>
