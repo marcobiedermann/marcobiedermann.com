@@ -1,7 +1,7 @@
 ---
 agency: 'FIXTREME GmbH'
 client: 'Sport- und Badezentrum Fildorado GmbH'
-color: '#dd0423'
+color: '#0ae'
 colors: 'content/images/projects/fildorado/fildorado-colors.png'
 desktop: 'content/images/projects/fildorado/fildorado-imac.png'
 fonts:
