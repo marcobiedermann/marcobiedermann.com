@@ -25,6 +25,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                   path
                   role
                   tablet
+                  thumbnail
                   title
                   website
                 }

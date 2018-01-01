@@ -12,6 +12,7 @@ mobile: 'content/images/projects/metabolic-balance-academy/metabolic-balance-aca
 path: '/metabolic-balance-academy'
 role: 'Web Developing'
 tablet: 'content/images/projects/metabolic-balance-academy/metabolic-balance-academy-ipad.png'
+thumbnail: 'content/images/projects/metabolic-balance-academy/metabolic-balance-academy-thumbnail.png'
 title: 'Metabolic Balance Academy'
 website: 'https://www.metabolic-balance.academy'
 ---

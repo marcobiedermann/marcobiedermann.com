@@ -12,6 +12,7 @@ mobile: 'content/images/projects/isometall/isometall-iphone.png'
 path: '/isometall'
 role: 'Web Developing'
 tablet: 'content/images/projects/isometall/isometall-ipad.png'
+thumbnail: 'content/images/projects/isometall/isometall-thumbnail.png'
 title: 'ISOMETALL'
 website: 'http://www.isometall.de'
 ---

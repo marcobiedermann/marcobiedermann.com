@@ -11,6 +11,7 @@ mobile: 'content/images/projects/kinderwunschzentrum-ludwigsburg/kinderwunschzen
 path: '/kinderwunschzentrum-ludwigsburg'
 role: 'Web Developing'
 tablet: 'content/images/projects/kinderwunschzentrum-ludwigsburg/kinderwunschzentrum-ludwigsburg-ipad.png'
+thumbnail: 'content/images/projects/kinderwunschzentrum-ludwigsburg/kinderwunschzentrum-ludwigsburg-thumbnail.png'
 title: 'Kinderwunschzentrum Ludwigsburg'
 website: 'http://www.kinderwunschzentrum-ludwigsburg.de'
 ---

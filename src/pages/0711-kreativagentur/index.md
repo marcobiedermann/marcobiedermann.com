@@ -11,6 +11,7 @@ mobile: 'content/images/projects/0711-kreativagentur/0711-kreativagentur-iphone.
 path: '/0711-kreativagentur'
 role: 'Web Developing'
 tablet: 'content/images/projects/0711-kreativagentur/0711-kreativagentur-ipad.png'
+thumbnail: 'content/images/projects/0711-kreativagentur/0711-kreativagentur-thumbnail.png'
 title: '0711 Kreativagentur'
 website: 'http://0711-kreativagentur.de'
 ---

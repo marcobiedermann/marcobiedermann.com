@@ -11,6 +11,7 @@ mobile: 'content/images/projects/hotel-campus-zwei/hotel-campus-zwei-iphone.png'
 path: '/hotel-campus-zwei'
 role: 'Web Developing'
 tablet: 'content/images/projects/hotel-campus-zwei/hotel-campus-zwei-ipad.png'
+thumbnail: 'content/images/projects/hotel-campus-zwei/hotel-campus-zwei-thumbnail.png'
 title: 'Hotel CampusZwei™'
 website: 'http://www.campuszwei.com'
 ---

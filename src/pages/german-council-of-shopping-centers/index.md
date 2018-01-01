@@ -11,6 +11,7 @@ mobile: 'content/images/projects/german-council-of-shopping-centers/german-counc
 path: '/german-council-of-shopping-centers'
 role: 'Web Developing'
 tablet: 'content/images/projects/german-council-of-shopping-centers/german-council-of-shopping-centers-ipad.png'
+thumbnail: 'content/images/projects/german-council-of-shopping-centers/german-council-of-shopping-centers-thumbnail.png'
 title: 'German Council of Shopping Centers'
 website: 'http://www.gcsc.de'
 ---

@@ -14,7 +14,7 @@ const Project = props => (
   >
     <figure>
       <Link to={props.path} itemProp="url">
-        <Image src={props.desktop} alt="" />
+        <Image src={props.thumbnail} alt="" />
         <figcaption>
           <div className="project__caption">
             <h3 className="project__title" itemProp="name">
@@ -28,8 +28,8 @@ const Project = props => (
 );
 
 Project.propTypes = {
-  desktop: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 

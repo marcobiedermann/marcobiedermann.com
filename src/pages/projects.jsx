@@ -38,8 +38,8 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            desktop
             path
+            thumbnail
             title
           }
         }

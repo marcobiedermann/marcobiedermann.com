@@ -11,6 +11,7 @@ mobile: 'content/images/projects/haarbotschaft/haarbotschaft-iphone.png'
 path: '/haarbotschaft'
 role: 'Web Developing'
 tablet: 'content/images/projects/haarbotschaft/haarbotschaft-ipad.png'
+thumbnail: 'content/images/projects/haarbotschaft/haarbotschaft-thumbnail.png'
 title: 'HAARBOTSCHAFT Ludwigsburg'
 website: 'http://www.haarbotschaft.de'
 ---

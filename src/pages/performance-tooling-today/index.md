@@ -10,6 +10,7 @@ mobile: 'content/images/projects/performance-tooling-today/performance-tooling-t
 path: '/performance-tooling-today'
 role: 'Web Developing'
 tablet: 'content/images/projects/performance-tooling-today/performance-tooling-today-ipad.png'
+thumbnail: 'content/images/projects/performance-tooling-today/performance-tooling-today-thumbnail.png'
 title: 'Performance Tooling Today'
 website: 'http://www.perf-tooling.today'
 ---

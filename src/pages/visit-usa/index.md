@@ -11,6 +11,7 @@ mobile: 'content/images/projects/visit-usa/visit-usa-iphone.png'
 path: '/visit-usa'
 role: 'Web Developing'
 tablet: 'content/images/projects/visit-usa/visit-usa-ipad.png'
+thumbnail: 'content/images/projects/visit-usa/visit-usa-thumbnail.png'
 title: 'Visit USA'
 website: 'http://www.vusa-germany.de'
 ---

@@ -11,6 +11,7 @@ mobile: 'content/images/projects/wirsing-rechtsanwaelte/wirsing-rechtsanwaelte-i
 path: '/wirsing-rechtsanwaelte'
 role: 'Web Developing'
 tablet: 'content/images/projects/wirsing-rechtsanwaelte/wirsing-rechtsanwaelte-ipad.png'
+thumbnail: 'content/images/projects/wirsing-rechtsanwaelte/wirsing-rechtsanwaelte-thumbnail.png'
 title: 'Wirsing Rechtsanwälte'
 website: 'http://wirsing-recht.de'
 ---

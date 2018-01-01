@@ -11,6 +11,7 @@ mobile: 'content/images/projects/fildorado/fildorado-iphone.png'
 path: '/fildorado'
 role: 'Web Developing'
 tablet: 'content/images/projects/fildorado/fildorado-ipad.png'
+thumbnail: 'content/images/projects/fildorado/fildorado-thumbnail.png'
 title: 'Fildorado'
 website: 'http://fildorado.de'
 ---

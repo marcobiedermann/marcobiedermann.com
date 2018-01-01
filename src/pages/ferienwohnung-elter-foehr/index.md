@@ -10,6 +10,7 @@ mobile: 'content/images/projects/ferienwohnung-elter-foehr/ferienwohnung-elter-f
 path: '/ferienwohnung-elter-foehr'
 role: 'Web Developing'
 tablet: 'content/images/projects/ferienwohnung-elter-foehr/ferienwohnung-elter-foehr-ipad.png'
+thumbnail: 'content/images/projects/ferienwohnung-elter-foehr/ferienwohnung-elter-foehr-thumbnail.png'
 title: 'Ferienwohnung Elter-Föhr'
 website: 'http://elter-föhr.de'
 ---

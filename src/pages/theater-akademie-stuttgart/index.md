@@ -11,6 +11,7 @@ mobile: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stu
 path: '/theater-akademie-stuttgart'
 role: 'Web Developing'
 tablet: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stuttgart-ipad.png'
+thumbnail: 'content/images/projects/theater-akademie-stuttgart/theater-akademie-stuttgart-thumbnail.png'
 title: 'TheaterAkademieStuttgart'
 website: 'http://www.theater-akademie-stuttgart.de'
 ---

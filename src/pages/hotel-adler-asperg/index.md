@@ -11,6 +11,7 @@ mobile: 'content/images/projects/hotel-adler-asperg/hotel-adler-asperg-iphone.pn
 path: '/hotel-adler-asperg'
 role: 'Web Developing'
 tablet: 'content/images/projects/hotel-adler-asperg/hotel-adler-asperg-ipad.png'
+thumbnail: 'content/images/projects/hotel-adler-asperg/hotel-adler-asperg-thumbnail.png'
 title: 'Hotel Adler Asperg'
 website: 'http://www.adler-asperg.de'
 ---

@@ -12,6 +12,7 @@ mobile: 'content/images/projects/schwabenprint/schwabenprint-iphone.png'
 path: '/schwabenprint'
 role: 'Web Developing'
 tablet: 'content/images/projects/schwabenprint/schwabenprint-ipad.png'
+thumbnail: 'content/images/projects/schwabenprint/schwabenprint-thumbnail.png'
 title: 'Schwabenprint'
 website: 'http://schwabenprint.de'
 ---

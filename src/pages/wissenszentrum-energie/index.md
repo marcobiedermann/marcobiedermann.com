@@ -12,6 +12,7 @@ mobile: 'content/images/projects/wissenszentrum-energie/wissenszentrum-energie-i
 path: '/wissenszentrum-energie'
 role: 'Web Developing'
 tablet: 'content/images/projects/wissenszentrum-energie/wissenszentrum-energie-ipad.png'
+thumbnail: 'content/images/projects/wissenszentrum-energie/wissenszentrum-energie-thumbnail.png'
 title: 'Wissenszentrum Energie'
 website: 'http://wissenszentrum-energie.de'
 ---

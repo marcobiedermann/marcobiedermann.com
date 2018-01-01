@@ -12,6 +12,7 @@ mobile: 'content/images/projects/metabolic-balance/metabolic-balance-iphone.png'
 path: '/metabolic-balance'
 role: 'Web Developing'
 tablet: 'content/images/projects/metabolic-balance/metabolic-balance-ipad.png'
+thumbnail: 'content/images/projects/metabolic-balance/metabolic-balance-thumbnail.png'
 title: 'Metabolic Balance'
 website: 'https://metabolic-balance.com'
 ---

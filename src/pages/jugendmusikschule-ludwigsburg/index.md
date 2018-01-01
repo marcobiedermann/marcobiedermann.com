@@ -11,6 +11,7 @@ mobile: 'content/images/projects/jugendmusikschule-ludwigsburg/jugendmusikschule
 path: '/jugendmusikschule-ludwigsburg'
 role: 'Web Developing'
 tablet: 'content/images/projects/jugendmusikschule-ludwigsburg/jugendmusikschule-ludwigsburg-ipad.png'
+thumbnail: 'content/images/projects/jugendmusikschule-ludwigsburg/jugendmusikschule-ludwigsburg-thumbnail.png'
 title: 'Jugendmusikschule Ludwigsburg'
 website: 'http://jugendmusikschule-ludwigsburg.de'
 ---
