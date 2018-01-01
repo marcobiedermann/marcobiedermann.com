@@ -13,7 +13,7 @@ const Project = props => (
     itemType="http://schema.org/CreativeWork"
   >
     <figure>
-      <Link to={props.path} itemprop="url">
+      <Link to={props.path} itemProp="url">
         <Image src={props.desktop} alt="" />
         <figcaption>
           <div className="project__caption">
