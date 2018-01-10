@@ -38,10 +38,20 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         return reject(response.errors);
       }
 
-      return response.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      const posts = response.data.allMarkdownRemark.edges;
+
+      return posts.forEach((post, index) => {
+        const previous = index === posts.length - 1 ? false : posts[index + 1].node;
+        const next = index === 0 ? false : posts[index - 1].node;
+
         createPage({
-          path: node.frontmatter.path,
+          path: post.node.frontmatter.path,
           component: postTemplate,
+          context: {
+            path: post.node.frontmatter.path,
+            previous,
+            next,
+          },
         });
       });
     }));

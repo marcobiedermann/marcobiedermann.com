@@ -41,12 +41,12 @@
 }
 
 .pagination__previous a::before {
-  background-image: url('../images/arrow-left.svg');
+  /* background-image: url('../images/arrow-left.svg'); */
   right: 75%;
 }
 
 .pagination__next a::before {
-  background-image: url('../images/arrow-right.svg');
+  /* background-image: url('../images/arrow-right.svg'); */
   left: 75%;
 }
 

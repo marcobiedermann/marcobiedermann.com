@@ -3,14 +3,16 @@ import React from 'react';
 import Grid from '../components/Grid';
 import Icon from '../components/Icon';
 import Image from '../components/Image';
+import Pagination from '../components/Pagination';
 import Section from '../components/Section';
 
 import facebookIcon from '../assets/images/facebook.svg';
 import googlePlusIcon from '../assets/images/google-plus.svg';
 import twitterIcon from '../assets/images/twitter.svg';
 
-const Template = ({ data }) => {
-  const { markdownRemark: post } = data;
+const Template = ({ data, pathContext }) => {
+  const post = data.markdownRemark;
+  const { previous, next } = pathContext;
 
   return (
     <article
@@ -121,6 +123,7 @@ const Template = ({ data }) => {
 
       <Section>
         <Grid>
+          <Pagination previous={previous.frontmatter.path} next={next.frontmatter.path} />
           <p>
             <a
               href={post.frontmatter.website}
