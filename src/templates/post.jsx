@@ -123,7 +123,7 @@ const Template = ({ data, pathContext }) => {
 
       <Section>
         <Grid>
-          <Pagination previous={previous.frontmatter.path} next={next.frontmatter.path} />
+          <Pagination previous={previous} next={next} />
           <p>
             <a
               href={post.frontmatter.website}
